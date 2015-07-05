@@ -2,10 +2,12 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-
 #navigation-bar li {
   display: inline;
   float: left;
+}
+#navigation-bar li a:hover {
+  text-decoration: underline;
 }
 #navigation-bar li a {
   width: 15em;
