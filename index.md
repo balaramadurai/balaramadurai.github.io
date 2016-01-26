@@ -1,6 +1,9 @@
 ---
-
+layout: default2
+title: Bala Ramadurai
+tagline: Consultant and Professor in Innovation and Entrepreneurship
 ---
+
 <section id="bk19" class="control-row theme-row-header2 row-header2">
 <div class="control-row-content">
 <div id="bk20" class="bk-widget widget-columns widget-columns-LHR4GG">
