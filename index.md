@@ -1,35 +1,183 @@
 ---
-layout: page
+layout: default2
 title: Bala Ramadurai
 tagline: Consultant and Professor in Innovation and Entrepreneurship
 ---
 {% include JB/setup %}
 
-## Areas of Expertise
-
-| Creative Problem Solving | Technology Forecasting | Intrapreneurship |
-| : Creativity is considered to be a trait of the artist, the recluse, and the non-conformist. 
-But voilà! A step-by-step process can help everyone generate wacky yet relevant ideas. ARIZ/TRIZ is a set of tools that can assist you in streamlining your path to creativity. :      |  : Let's assume that you have a fantastic piece of equipment or software based on a technology that has served you for a very long time.You are unsure about whether this technology will last a lifetime or whether it is time for an alternative to take over. TECHNOLOGY FORECASTING is a methodology to determine the path that technology will take and thus help you decide your next course of action. :   | : Starting a company is an exciting proposition; however, it seems risky, particularly for employees of a company. How do you create a new startup without leaving the comfort of your current job? The solution to this quandary is INTRAPRENEURSHIP -- a customized program to promote entrepreneurship within the culture and infrastructure of the current organization.﻿ :|
-
-    
-## Blog Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<section id="bk19" class="control-row theme-row-header2 row-header2">
+<div class="control-row-content">
+<div id="bk20" class="bk-widget widget-columns widget-columns-LHR4GG">
+<div id="bk21" class="control-zone widget-columns-column widget-columns-column-4EV4T4">
+<div class="widget-columns-column-padding bk-first bk-last">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="bk22" class="control-row theme-row-main row-main">
+<div class="control-row-content">
+<div id="bk23" class="bk-widget widget-columns widget-columns-2666EV">
+<div id="bk24" class="control-zone widget-columns-column widget-columns-column-5YIVNV">
+<div class="widget-columns-column-padding bk-first bk-last">
+<div id="bk25" class="bk-widget widget-content widget-content-4J0O36">
+<p style="text-align: center;"><strong><span style=
+"font-size: 32px;">Areas of Expertise</span></strong></p>
+</div>
+<div id="bk26" class="bk-widget widget-columns widget-columns-LP4834">
+<div id="bk27" class="control-zone widget-columns-column widget-columns-column-M18TSR">
+<div class="widget-columns-column-padding bk-first">
+<div id="bk28" class="bk-widget widget-background widget-background-F1OD4E">
+<div id="bk28BKcontent" class="bk-widget-content widget-background-content">
+<div id="bk29" class="control-zone control-zone control-zone-POY75Q">
+<div id="bk30" class="bk-widget widget-content widget-content-MUA90Y">
+<h1><span style="color: #3b5274;">Creative Problem
+Solving</span><span style="color: #5e6959;"><span class=
+"Apple-style-span" style=
+"font-size: 12px;"><br /></span></span></h1>
+</div>
+<div id="bk31" class="bk-widget widget-content widget-content-D138LZ">
+<div dir="ltr"><span style=
+"font-family: georgia, palatino; font-size: 18px;">Creativity is
+considered to be a trait of the artist, the recluse, and the
+non-conformist.&nbsp;</span></div>
+<div dir="ltr"><span style=
+"font-family: georgia, palatino; font-size: 18px;">But voilà! A
+step-by-step process can help everyone generate wacky yet relevant
+ideas. ARIZ/TRIZ is a set of tools that can assist you in
+streamlining your path to creativity.&nbsp;</span></div>
+<p><span><br /></span></p>
+</div>
+<div id="bk32" class="bk-widget widget-image widget-image-RGX622">
+<a class="widget-image-link" href="/home" target="_parent">
+<img class="widget-image-image " src="http://www.hostgator.co.in/files/writeable/uploads/basekit-template-images/hostgator583_cross1.png" alt="Image description" title="" />
+</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div id="bk33" class="control-zone widget-columns-column widget-columns-column-WMF65X">
+<div class="widget-columns-column-padding">
+<div id="bk34" class="bk-widget widget-background widget-background-7JU2F0">
+<div id="bk34BKcontent" class="bk-widget-content widget-background-content">
+<div id="bk35" class="control-zone control-zone control-zone-4U6TQ5">
+<div id="bk36" class="bk-widget widget-content widget-content-M5ZTX3">
+<h1><span style="color: rgb(59, 82, 116);">Technology
+Forecasting</span><br /></h1>
+</div>
+<div id="bk37" class="bk-widget widget-content widget-content-JU0197">
+<p><span><span style=
+"font-family: georgia, palatino; font-size: 18px;">Let's assume
+that you have a fantastic piece of equipment or software based on a
+technology that has served you for a very long time.You are unsure
+about whether this technology will last a lifetime or whether it is
+time for an alternative to take over. TECHNOLOGY FORECASTING is a
+methodology to determine the path that technology will take and
+thus help you decide your next course of
+action.</span><br /></span></p>
+</div>
+<div id="bk38" class="bk-widget widget-image widget-image-EMNV76">
+<a class="widget-image-link" href="/about" target="_parent">
+<img class="widget-image-image " src="http://www.hostgator.co.in/files/writeable/uploads/basekit-template-images/hostgator583_cross2.png" alt="Image description" title="" />
+</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div id="bk39" class="control-zone widget-columns-column widget-columns-column-LG08ML">
+<div class="widget-columns-column-padding bk-last">
+<div id="bk40" class="bk-widget widget-background widget-background-VJ728E">
+<div id="bk40BKcontent" class="bk-widget-content widget-background-content">
+<div id="bk41" class="control-zone control-zone control-zone-51PP7G">
+<div id="bk42" class="bk-widget widget-content widget-content-FNN79U">
+<h1><span style=
+"color: rgb(59, 82, 116);">Intrapreneurship</span><br /></h1>
+</div>
+<div id="bk43" class="bk-widget widget-content widget-content-TZ17LR">
+<p><span style=
+"font-size: 18px; font-family: georgia, palatino;"><span style=
+"color: rgb(17, 17, 25); background-color: rgb(255, 255, 255);">Starting
+a company is an exciting proposition; however, it seems risky,
+particularly for employees of a company. How do you create a new
+startup without leaving the comfort of your current job? The
+solution to this quandary is INTRAPRENEURSHIP -- a customized
+program to promote entrepreneurship within the culture and
+infrastructure of the current organization.</span>﻿</span></p>
+</div>
+<div id="bk44" class="bk-widget widget-image widget-image-S5XMXD">
+<a class="widget-image-link" href="/about" target="_parent">
+<img class="widget-image-image " src="http://www.hostgator.co.in/files/writeable/uploads/basekit-template-images/hostgator583_cross3.png" alt="Image description" title="" />
+</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="bk45" class="bk-widget widget-content widget-content-O1EEZ7">
+<h1 style="text-align: center;"><span style=
+"font-size: 32px; font-family: helvetica;">Mode of
+Engagement</span></h1>
+<div><span style=
+"font-size: 32px; font-family: helvetica;"><br /></span></div>
+</div>
+<div id="bk46" class="bk-widget widget-columns widget-content-TPI4C">
+<div id="bk47" class="control-zone widget-columns-column widget-columns-column-V9ACBB">
+<div class="widget-columns-column-padding bk-first">
+<div id="bk48" class="bk-widget widget-image widget-image-8KEEK4">
+<img class="widget-image-image " src="http://files.hostgator.co.in/hostgator256921/image/face2face-sessions.png" alt="Image description" title="" />
+</div>
+</div>
+</div>
+<div id="bk49" class="control-zone widget-columns-column widget-columns-column-Z0IDSQ">
+<div class="widget-columns-column-padding">
+<div id="bk50" class="bk-widget widget-image widget-image-92D8TH">
+<img class="widget-image-image " src="http://files.hostgator.co.in/hostgator256921/image/remote-sessions.png" alt="Image description" title="" />
+</div>
+</div>
+</div>
+<div id="bk51" class="control-zone widget-columns-column widget-columns-column-0709M1">
+<div class="widget-columns-column-padding bk-last">
+<div id="bk52" class="bk-widget widget-image widget-image-3XX0RN">
+<img class="widget-image-image " src="http://files.hostgator.co.in/hostgator256921/image/face2face-conclude_1.png" alt="Image description" title="" />
+</div>
+</div>
+</div>
+</div>
+<div id="bk53" class="bk-widget widget-columns widget-content-TB6FD">
+<div id="bk54" class="control-zone widget-columns-column widget-columns-column-9999CL">
+<div class="widget-columns-column-padding bk-first">
+<div id="bk55" class="bk-widget widget-content widget-content-O4R3RP">
+<p style="text-align: center;"><strong><span style=
+"font-size: 18px;">Face-to-Face Sessions</span></strong></p>
+</div>
+</div>
+</div>
+<div id="bk56" class="control-zone widget-columns-column widget-columns-column-MCIP2N">
+<div class="widget-columns-column-padding">
+<div id="bk57" class="bk-widget widget-content widget-content-7M2O68">
+<p style="text-align: center;"><strong><span style=
+"font-size: 18px;">Remote Sessions OR Onsite
+Sessions</span></strong></p>
+</div>
+</div>
+</div>
+<div id="bk58" class="control-zone widget-columns-column widget-columns-column-U1ITUI">
+<div class="widget-columns-column-padding bk-last">
+<div id="bk59" class="bk-widget widget-content widget-content-APUA98">
+<p style="text-align: center;"><span style=
+"font-size: 18px;"><strong>Face-to-Face Concluding
+Session</strong></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
 
