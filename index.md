@@ -1,29 +1,17 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Bala Ramadurai
+tagline: Consultant and Professor in Innovation and Entrepreneurship
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Areas of Expertise
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+| *Creative Problem Solving* | *Technology Forecasting*                                                                                                                                                                                                                                                                                                                                                                                   | *Intrapreneurship*                                                                                                                                                                                                                                                                                                                                                         |
+| Creativity is considered to be a trait of the artist, the recluse, and the non-conformist.  But voilà! A step-by-step process can help everyone generate wacky yet relevant ideas. ARIZ/TRIZ is a set of tools that can assist you in streamlining your path to creativity. | Let's assume that you have a fantastic piece of equipment or software based on a technology that has served you for a very long time.You are unsure about whether this technology will last a lifetime or whether it is time for an alternative to take over. TECHNOLOGY FORECASTING is a methodology to determine the path that technology will take and thus help you decide your next course of action. | Starting a company is an exciting proposition; however, it seems risky, particularly for employees of a company. How do you create a new startup without leaving the comfort of your current job? The solution to this quandary is INTRAPRENEURSHIP -- a customized program to promote entrepreneurship within the culture and infrastructure of the current organization.﻿ |
+| +                                                                                                                                                                                                                                                                           | +                                                                                                                                                                                                                                                                                                                                                                                                          | +                                                                                                                                                                                                                                                                                                                                                                         |
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+## Blog Posts
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
