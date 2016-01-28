@@ -1,0 +1,14 @@
+---
+layout: page
+title: Bala Ramadurai
+tagline: Consultant and Professor in Innovation and Entrepreneurship
+---
+{% include JB/setup %}
+
+Occassionally, I write up a few blog posts on varied topics from stories to tech to well, anything under the sun.
+
+My Posts are given below:
+
+{% for post in site.posts %}
+{{ post.date | date_to_string }} » {{ post.title }}
+{% endfor %}
