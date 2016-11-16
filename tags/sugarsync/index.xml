@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</title>
+    <link>http://balaramadurai.net/tags/sugarsync/index.xml</link>
+    <description>Recent content on Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
+    <atom:link href="http://balaramadurai.net/tags/sugarsync/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dropbox, Sugarsync, SkyDrive, Google Drive - Build a Cloud Nest!!</title>
+      <link>http://balaramadurai.net/blog/2012/06/09/dropbox-sugarsync-skydrive-google-drive-build-a-cloud-nest/</link>
+      <pubDate>Sat, 09 Jun 2012 07:38:21 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/06/09/dropbox-sugarsync-skydrive-google-drive-build-a-cloud-nest/</guid>
+      <description>&lt;p&gt;As I mentioned in my &lt;a href=&#34;http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/&#34;&gt;earlier post&lt;/a&gt;, I have been looking around for suggestions and tools on syncing google drive and dropbox. SkyDrive offers 25GB, so I thought, why the hassle of maintaining so many of these. The problem statement is that of - How can I have just one copy of my files, but have so many services backing up my files. Right now, all I have is about 5GB of stuff&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;One suggestion was to place Dropbox folder inside Google Drive or the other way around. I tried it out, but I got a &amp;ldquo;System Folder&amp;rdquo; error. So I tried the other way around of placing Google Drive Folder inside Dropbox and it worked. Now add SkyDrive into the equation. Make SkyDrive folder as the master folder under which you have Dropbox which contains Google Drive. Do you want to make your virtual life even more difficult, throw SugarSync into the fray. All SugarSync needs is a file location and it backs up your computer contents.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image.jpeg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image.jpeg&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What are the various steps if you were to start from scratch?
+1. Install &lt;a href=&#34;https://apps.live.com/&#34;&gt;SkyDrive app&lt;/a&gt; first (Leave the recommended settings as is)
+2. Install Dropbox app next and select advanced settings to select the folder. (Choose the SkyDrive folder)
+3. Install Google Drive app and choose Dropbox folder as your install folder.
+4. Install SugarSync app and select the SkyDrive folder for syncing (You can actually choose any of the cloud drives)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages of the nested cloud&lt;/strong&gt;
+1. Never bother about individually syncing each of your cloud services
+2. Each cloud drive has several backups of your version
+3. Google Drive and SkyDrive let you create documents on the move
+4. Dropbox and Picasa lets you upload pictures from your camera and is easy to share as well. (Dropbox upgrades your folder space when you upload pictures from your camera, 500MB at a time)
+5.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages of the nested cloud&lt;/strong&gt;
+1. 5GB is all you get for free (since that is the lowest common denominator of the services)
+2. You are losing out on cumulative storage (Dropbox - 2GB (default), SkyDrive - 7GB, Google Drive - 5GB, SugarSync - 5GB, Total - 19GB, with referrals and tricks, you can reach 40GB of distributed cloud space)
+3. 4 syncing apps on your desktop can slow your computer down considerably
+4. Multi-computer sync can be messy&lt;/p&gt;
+
+&lt;p&gt;In conclusion, I really like my nested cloud setup. My recommendation is that people who want it all, but want minimum hassles, please adopt the above mentioned method, else you can also try services like &lt;a href=&#34;http://zeropc.com&#34;&gt;zeropc.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>3 steps to store and access anything anywhere</title>
+      <link>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</link>
+      <pubDate>Tue, 22 Nov 2011 14:00:12 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</guid>
+      <description>&lt;p&gt;Have you gone to a high profile presentation only to discover that your latest version is in your home computer or office desktop?Have you ever wished that you didn&amp;rsquo;t have to carry your laptop anywhere?&lt;/p&gt;
+
+&lt;p&gt;Have you ever wanted to travel totally light, say carrying a pendrive and you lost the device?
+Have you felt the need for your presentation software in a conference or in a client location?&lt;/p&gt;
+
+&lt;p&gt;If your answer is yes to any one of the questions above, you will be able to relate to my experiences.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;My selection criteria was simple: portable, light (physically) and I shouldn&amp;rsquo;t be bothered with backing up or maintaining. And of course, investments should be, well, zero. I don&amp;rsquo;t prefer to carry music or videos with me, anyway.&lt;/p&gt;
+
+&lt;p&gt;Required:
+USB pendrive of atleast 2GB capacity&lt;/p&gt;
+
+&lt;p&gt;One primary computer - desktop or laptop&lt;/p&gt;
+
+&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;br /&gt;
+If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
+&lt;img src=&#34;https://www.sugarsync.com/images/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;
+2 Download Portable apps platform with any applications from &lt;a href=&#34;http://portableapps.com&#34;&gt;portableapps.com&lt;/a&gt; on your pendrive&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;LibreOffice for Office apps&lt;/li&gt;
+&lt;li&gt;Chrome browser for browsing&lt;/li&gt;
+&lt;li&gt;DSynchronize for synchronizing Pendrive and Dropbox/Sugarsync (with realtime sync)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vue.tufts.edu&#34;&gt;VUE&lt;/a&gt; for intuitive presentations (I copied the ProgramFilesVUE files and is now portable)&lt;/li&gt;
+&lt;li&gt;Lyx for WYSIWYG LaTeX editing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zotero.org/support/3.0&#34;&gt;Zotero&lt;/a&gt; Standalone for storing research citations (works well with Chrome&amp;rsquo;s Zotero plug-in)&lt;/li&gt;
+&lt;li&gt;Skype (just in case, there is no skype on a machine I login)
+3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, there are apps in portable apps to secure all files, folders and settings using a password. As luck would have it, I was invited to give a talk and I wanted to give a presentation using VUE and not powerpoint. I popped in my USB pendrive into the presentation machine, opened VUE from there and in less than a minute, I was ready to present without any hitches.&lt;/p&gt;
+
+&lt;p&gt;The other day, I forgot to take my USB pendrive to a workshop, I was facilitating. No problem, I had sugarsync on my mobile device to retrieve all required files and apps. Oh yes, one could avoid the USB drive altogether with an app running on a mobile device, but that is a choice I leave it to you.&lt;/p&gt;
+
+&lt;p&gt;Happy wireless and careless life :-)&lt;/p&gt;
+
+&lt;p&gt;Later, I will write about Skydrive, GMailDrive&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

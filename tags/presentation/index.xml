@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</title>
+    <link>http://balaramadurai.net/tags/presentation/index.xml</link>
+    <description>Recent content on Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
+    <atom:link href="http://balaramadurai.net/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>3 steps to store and access anything anywhere</title>
+      <link>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</link>
+      <pubDate>Tue, 22 Nov 2011 14:00:12 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</guid>
+      <description>&lt;p&gt;Have you gone to a high profile presentation only to discover that your latest version is in your home computer or office desktop?Have you ever wished that you didn&amp;rsquo;t have to carry your laptop anywhere?&lt;/p&gt;
+
+&lt;p&gt;Have you ever wanted to travel totally light, say carrying a pendrive and you lost the device?
+Have you felt the need for your presentation software in a conference or in a client location?&lt;/p&gt;
+
+&lt;p&gt;If your answer is yes to any one of the questions above, you will be able to relate to my experiences.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;My selection criteria was simple: portable, light (physically) and I shouldn&amp;rsquo;t be bothered with backing up or maintaining. And of course, investments should be, well, zero. I don&amp;rsquo;t prefer to carry music or videos with me, anyway.&lt;/p&gt;
+
+&lt;p&gt;Required:
+USB pendrive of atleast 2GB capacity&lt;/p&gt;
+
+&lt;p&gt;One primary computer - desktop or laptop&lt;/p&gt;
+
+&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;br /&gt;
+If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
+&lt;img src=&#34;https://www.sugarsync.com/images/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;
+2 Download Portable apps platform with any applications from &lt;a href=&#34;http://portableapps.com&#34;&gt;portableapps.com&lt;/a&gt; on your pendrive&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;LibreOffice for Office apps&lt;/li&gt;
+&lt;li&gt;Chrome browser for browsing&lt;/li&gt;
+&lt;li&gt;DSynchronize for synchronizing Pendrive and Dropbox/Sugarsync (with realtime sync)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vue.tufts.edu&#34;&gt;VUE&lt;/a&gt; for intuitive presentations (I copied the ProgramFilesVUE files and is now portable)&lt;/li&gt;
+&lt;li&gt;Lyx for WYSIWYG LaTeX editing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zotero.org/support/3.0&#34;&gt;Zotero&lt;/a&gt; Standalone for storing research citations (works well with Chrome&amp;rsquo;s Zotero plug-in)&lt;/li&gt;
+&lt;li&gt;Skype (just in case, there is no skype on a machine I login)
+3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, there are apps in portable apps to secure all files, folders and settings using a password. As luck would have it, I was invited to give a talk and I wanted to give a presentation using VUE and not powerpoint. I popped in my USB pendrive into the presentation machine, opened VUE from there and in less than a minute, I was ready to present without any hitches.&lt;/p&gt;
+
+&lt;p&gt;The other day, I forgot to take my USB pendrive to a workshop, I was facilitating. No problem, I had sugarsync on my mobile device to retrieve all required files and apps. Oh yes, one could avoid the USB drive altogether with an app running on a mobile device, but that is a choice I leave it to you.&lt;/p&gt;
+
+&lt;p&gt;Happy wireless and careless life :-)&lt;/p&gt;
+
+&lt;p&gt;Later, I will write about Skydrive, GMailDrive&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

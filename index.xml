@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</title>
+    <link>http://balaramadurai.net/index.xml</link>
+    <description>Recent content on Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 13 Oct 2012 18:40:23 +0000</lastBuildDate>
+    <atom:link href="http://balaramadurai.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gazing into the Crystal Ball using TRIZ technology trends</title>
+      <link>http://balaramadurai.net/blog/2012/10/13/gazing-into-the-crystal-ball-using-triz-technology-trends/</link>
+      <pubDate>Sat, 13 Oct 2012 18:40:23 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/10/13/gazing-into-the-crystal-ball-using-triz-technology-trends/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://balaramadurai.net/img/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&#34; alt=&#34;http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg &amp;quot;courtesy link - http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3 innovation facilitators - Murali Loganathan, Prakasan Kappoth and Bala Ramadurai discuss about the laws of technology evolution.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://trizindia.org/profiles/blogs/8-triz-evolution-trends-applied-to-mobile&#34;&gt;http://trizindia.org/profiles/blogs/8-triz-evolution-trends-applied-to-mobile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the link to the original blog post of the podcast. Also check out this link to the Corning Gorilla Glass story - &lt;a href=&#34;http://www.wired.com/wiredscience/2012/09/ff-corning-gorilla-glass/3/&#34;&gt;http://www.wired.com/wiredscience/2012/09/ff-corning-gorilla-glass/3/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://archive.org/download/TrizInnovationIndiaPodcast-TrendsOfTechnologyEvolution/TRIZIndiapodcast-Trends.mp3&#34;&gt;Listen to the podcast here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;_Image Courtesy: &lt;a href=&#34;http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&#34;&gt;http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&lt;/a&gt;_&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dropbox, Sugarsync, SkyDrive, Google Drive - Build a Cloud Nest!!</title>
+      <link>http://balaramadurai.net/blog/2012/06/09/dropbox-sugarsync-skydrive-google-drive-build-a-cloud-nest/</link>
+      <pubDate>Sat, 09 Jun 2012 07:38:21 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/06/09/dropbox-sugarsync-skydrive-google-drive-build-a-cloud-nest/</guid>
+      <description>&lt;p&gt;As I mentioned in my &lt;a href=&#34;http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/&#34;&gt;earlier post&lt;/a&gt;, I have been looking around for suggestions and tools on syncing google drive and dropbox. SkyDrive offers 25GB, so I thought, why the hassle of maintaining so many of these. The problem statement is that of - How can I have just one copy of my files, but have so many services backing up my files. Right now, all I have is about 5GB of stuff&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;One suggestion was to place Dropbox folder inside Google Drive or the other way around. I tried it out, but I got a &amp;ldquo;System Folder&amp;rdquo; error. So I tried the other way around of placing Google Drive Folder inside Dropbox and it worked. Now add SkyDrive into the equation. Make SkyDrive folder as the master folder under which you have Dropbox which contains Google Drive. Do you want to make your virtual life even more difficult, throw SugarSync into the fray. All SugarSync needs is a file location and it backs up your computer contents.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image.jpeg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image.jpeg&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What are the various steps if you were to start from scratch?
+1. Install &lt;a href=&#34;https://apps.live.com/&#34;&gt;SkyDrive app&lt;/a&gt; first (Leave the recommended settings as is)
+2. Install Dropbox app next and select advanced settings to select the folder. (Choose the SkyDrive folder)
+3. Install Google Drive app and choose Dropbox folder as your install folder.
+4. Install SugarSync app and select the SkyDrive folder for syncing (You can actually choose any of the cloud drives)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages of the nested cloud&lt;/strong&gt;
+1. Never bother about individually syncing each of your cloud services
+2. Each cloud drive has several backups of your version
+3. Google Drive and SkyDrive let you create documents on the move
+4. Dropbox and Picasa lets you upload pictures from your camera and is easy to share as well. (Dropbox upgrades your folder space when you upload pictures from your camera, 500MB at a time)
+5.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages of the nested cloud&lt;/strong&gt;
+1. 5GB is all you get for free (since that is the lowest common denominator of the services)
+2. You are losing out on cumulative storage (Dropbox - 2GB (default), SkyDrive - 7GB, Google Drive - 5GB, SugarSync - 5GB, Total - 19GB, with referrals and tricks, you can reach 40GB of distributed cloud space)
+3. 4 syncing apps on your desktop can slow your computer down considerably
+4. Multi-computer sync can be messy&lt;/p&gt;
+
+&lt;p&gt;In conclusion, I really like my nested cloud setup. My recommendation is that people who want it all, but want minimum hassles, please adopt the above mentioned method, else you can also try services like &lt;a href=&#34;http://zeropc.com&#34;&gt;zeropc.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Are students capable of coming out with blockbuster ideas?</title>
+      <link>http://balaramadurai.net/blog/2012/05/12/are-students-capable-of-coming-out-with-blockbuster-ideas/</link>
+      <pubDate>Sat, 12 May 2012 07:14:47 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/05/12/are-students-capable-of-coming-out-with-blockbuster-ideas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/clapping.jpg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/clapping.jpg&#34; alt=&#34;&#34; title=&#34;Office Workers Clapping at Office Party&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The raging debate in our &lt;a href=&#34;http://venture-lab.org&#34;&gt;team&lt;/a&gt; has been whether students (our team picked out undergraduate engineering students in
+particular) are capable of generating blockbuster ideas for a thriving business/startup.&lt;br /&gt;
+Before giving you both sides of the coin, I&amp;rsquo;ll tell you an anecdote about a large company trying to figure out what makes creative minds
+creative. This large company was really curious to find out the real mechanism which made the creative minds work. So, they did surveys and profiling
+to figure out (Education, cultural background, family details and so on) what was really happening in their minds. Zilch! They came out with no
+concrete patterns or reasons for the creativity in their organization.&lt;br /&gt;
+Second round was face to face interviews to see if they were missing out something obvious. After a few interviews, they hit upon the key insight that
+they were looking for - creative guys thought that they were creative and the not-so-creative guys thought that they were not creative. Period!
+Nothing else! (As a side note, this is what neuro linguistic programming (NLP) is all about :))&lt;br /&gt;
+With this background in mind, I go back to the original debate of whether students will come out with ideas. Sure, the students who really believe
+that they are creative will crack any problem given to them. The ones who think &amp;quot;Oh no, this is not my cup of tea to rub shoulders with the likes
+of Edison&amp;quot;, will remain in the sideranks reading success stories of the creative world! I am going to build on this idea and will confidently say
+that the ones who believe in students, will find them to be intensively creative. While if you choose to believe that the students are not creative
+will find them to be unimaginative.&lt;br /&gt;
+I choose to believe in the former and will continue to work with the young&amp;rsquo;uns to recharge my batteries :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dropbox for Nokia - Simplify your Nokia Life!</title>
+      <link>http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/</link>
+      <pubDate>Wed, 09 May 2012 18:52:58 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/</guid>
+      <description>&lt;p&gt;After several weeks of search for a decent app for Dropbox (storage for the cloud) on my outdated, outclassed, neglected Symbian Nokia E52 smartphone (Yes, fellas, it is a smartphone, even though it doesn&amp;rsquo;t have Android or iOS on it), I hit upon the right solution. Ok, let me backtrack a bit and describe to you my system of storage and how I want to carry my world with me- &lt;a href=&#34;http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/&#34;&gt;Here it is&lt;/a&gt;. What I have now is my &amp;ldquo;smartphone&amp;rdquo; doubling up as my USB device, since I thought that if I had a reliable Nokia Dropbox app, that would make syncing a breeze.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;http://store.ovi.com/content/125322&#34;&gt;Dropian&lt;/a&gt; was where I started out. Nice interface, but doesn&amp;rsquo;t preserve the folder structure when you download files. &lt;a href=&#34;http://www.tlehto.net/Drops60/help.html&#34;&gt;Drops60&lt;/a&gt; worked well in preserving the folder structure but has one limitation (and apparently, it is a limitation that the Dropbox API imposes) that the app cannot do a directory/folder recursion while syncing. So, you have to manually browse to every folder to sync everything. Bummer!!&lt;/p&gt;
+
+&lt;p&gt;What I want is for all the folders that are on my dropbox folder to be present on my Nokia phone. Then, I started looking for a portable Dropbox
+application that will run once I stick my phone into the desktop as a memory device (2nd best option to recursive syncing, but hey it works!). I found
+&lt;a href=&#34;http://nionsoftware.com/dbpahk/download&#34;&gt;DropboxPortableAHK&lt;/a&gt; as the answer. Once you go thru the wizard and installation on your storage device, the
+portable dropbox actually runs as a different instance of Dropbox desktop app and syncs with your USB device. I gave it a different color (Yes, you
+can configure different colors for different USB devices).&lt;br /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now, my digital/portable life is split into - creation and storage. Creation happens using Google Drive and storage using dropbox.&lt;/p&gt;
+
+&lt;p&gt;My next search is for syncing dropbox and google drive or a portable sync for Google Drive! Wish me luck!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>She was not his boss</title>
+      <link>http://balaramadurai.net/blog/2011/12/10/she-was-not-his-boss/</link>
+      <pubDate>Sat, 10 Dec 2011 11:46:10 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/12/10/she-was-not-his-boss/</guid>
+      <description>&lt;p&gt;She certainly was not his boss, neither did they have any sort of agreement written between themselves. In fact, this was the first time, they had met. Till that moment, he was a maverick, picking up whatever he wanted from the retail store. It was evident to all who cared to look at his activities, that he was not interested in buying any of the stuff that he picked up. These actions were becoming routine - pick up a few items and leave them on the floor for someone to put back on shelf. The store employees were fine with this. How come she had a problem? How come she wasn&amp;rsquo;t doing any of this even though there was so many opportunities to do so?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Heeeeyyyyy&amp;hellip;&amp;rdquo; was the yell that came from her, when he approached the aisle one more time with the sole intention of throwing the plastic sport glasses onto the floor. He froze. He turned around to see her with hands on her hips and an angry glare. No words exchanged so far. The communication was absolutely 100% non-verbal. He moved onto the clothes section now, very well knowing that a pair of eyes was scrutinizing his behaviour. The ethnic section had tons of loose clothing and things were in a mess already. Who&amp;rsquo;s going to notice if a few more were added to the pile. He could see a hand in front of him now. What sort of a managerial gimmick is this, that too from a total stranger? This time she was just plain playful. Phew! He heaved a sigh of relief, not all work, there&amp;rsquo;s some play in her. She played peek-a-boo, hid herself in the clothes and out she came. He was amused, one could tell from the hysterical giggles from both parties. Will this play go on or is there some seriousness? He lost interest in the game, moved quickly, casting a few of his magnetic smiles to the oncoming people. He was a social magnet and also knew that speed was of the essence. He lost her, but somehow missed her as well. He turned around to see if he could see the green clothed non-boss boss. Nope.. all clear. He went back to the same aisle. Nope, she had moved on.&lt;/p&gt;
+
+&lt;p&gt;I noticed all this happen, it made me wonder - she was all of 2.5 years, he was nearing 1.5 in another week, how did she know that this boy responds to &amp;ldquo;heeeyyy..&amp;rdquo; or rolling of eyes or squeals? All of this were beyond words, no words exchanged. How does one know what one responds to ? When does one switch strategy? Kids seem to know it. Leadership or parenting lessons, anyone?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom Designed Workshop</title>
+      <link>http://balaramadurai.net/blog/2011/12/03/custom-designed-workshop/</link>
+      <pubDate>Sat, 03 Dec 2011 10:53:26 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/12/03/custom-designed-workshop/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image8.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image8.png&#34; alt=&#34;&#34; title=&#34;image8&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What do budding industrial designers, a professor in industrial design, couple of material scientists and an entrepreneur have in common? A thirst for novelty and the desire to help people. The venue was perfect with movable chairs, a whiteboard, projector, an audio system, just in case, we lost our ability to shout. Ranjan had arranged for flipcharts, markers and motivators. Motivators are little chocolate blocks, which go a long way in crafting excellent design from anyone. Shankar(&lt;a href=&#34;http://in.linkedin.com/in/shankarmv&#34;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/#!/shankarmv&#34;&gt;Twitter&lt;/a&gt;), the lead facilitator, started off with a brief introduction on what innovation is.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;“Bringing insightful ideas into a market”&lt;/p&gt;
+
+&lt;p&gt;This tweet like mantra is all there is.&lt;/p&gt;
+
+&lt;p&gt;There are 3 stages of _!nnovation flow _-&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Focus&lt;/li&gt;
+&lt;li&gt;Escape &amp;amp; Align&lt;/li&gt;
+&lt;li&gt;Move
+Focus is the step where the entire attention is on &amp;ldquo;where the heck is the problem?&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Escape &amp;amp; Align is about &amp;ldquo;What all can solve this problem?&amp;rdquo; &amp;ldquo;Are my ideas science fiction or are they aligned to my organization/customers?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Move is about &amp;ldquo;How do take it from here into the future?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Bala(&lt;a href=&#34;http://in.linkedin.com/in/balaramadurai&#34;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/#!/nikimonikado&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;http://www.facebook.com/nikimonikado&#34;&gt;Facebook&lt;/a&gt;) laid out the plan for the workshop.&lt;/p&gt;
+
+&lt;p&gt;Problem selection &amp;amp; team formation Focus: 9 questions, Logo, Ideal Final Result, 5-Whys, function mapping Escape&amp;amp;Align: SCAMPER&amp;amp;IFR, Visual Business Model Move: Wasn’t covered as part of this workshop&lt;/p&gt;
+
+&lt;p&gt;Sridhar(&lt;a href=&#34;http://in.linkedin.com/in/sridhardp&#34;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/#!/ThatvaTweet&#34;&gt;Twitter&lt;/a&gt;) gave an overview of &lt;a href=&#34;http://www.thatva.com/&#34;&gt;Thatva&lt;/a&gt; which was a big part of the workshop as it gave a workspace for the teams to work out their ideas. The Thatva tool guided the teams to formalize their plans.&lt;/p&gt;
+
+&lt;p&gt;6 ladies were appointed team captains and was asked to form their own teams of 4 members. There was intense chaos, but resulted in naturally formed cohesive teams.&lt;/p&gt;
+
+&lt;p&gt;Task 1: Pick a socially relevant problem to solve and name your team.&lt;/p&gt;
+
+&lt;p&gt;Task 2: Draw a good logo for your team&lt;/p&gt;
+
+&lt;p&gt;All logos are given below. Their logo pretty much depicts their problem statement as well. A fun way to focus, we thought.&lt;/p&gt;
+
+&lt;h1 id=&#34;logos&#34;&gt;Logos&lt;/h1&gt;
+
+&lt;p&gt;Logo that made us facilitators worry about the sanity of the team&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/scavenger.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/scavenger.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://balaramadurai.net/img/scavenger2.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/scavenger2.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger- team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Whacky team, and a creative one!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo that made us cry&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/caresquare.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/caresquare.png&#34; alt=&#34;&#34; title=&#34;Caresquare&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://balaramadurai.net/img/caresquare2.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/caresquare2.png&#34; alt=&#34;&#34; title=&#34;Caresquare - team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Democracy at work, this team, everyone was listened to, well, almost everyone ;-)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo that went thru more revisions than the colours on their logo&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/helios.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/helios.png&#34; alt=&#34;&#34; title=&#34;Helios&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When you lack content, use colour :-)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo that was corny&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/mealmonitors.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/mealmonitors.png&#34; alt=&#34;&#34; title=&#34;MealMonitors&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tagline says it all&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo that had one guy do all the work&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;New Leaf and newleafers leafing new leafs&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/-v0k128rvZLs/TtT7adY_-2I/AAAAAAAAAms/X-z1RKkKqZM/s720/DSC00678.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;H3O - the logo that required a long winded explanation&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ideal-final-result-and-incubation&#34;&gt;Ideal Final Result and Incubation&lt;/h1&gt;
+
+&lt;p&gt;Once the slogans, logo, initial discussions were over, ’twas analysis time. Top 3 benefits, 3 deficiencies, 3 dollar costs of the current situation was analyzed. 5-whys applied to find root cause of the problems, rather than stop at the first instance of trouble. The budding designers really liked the simplicity of the tool and the impact that the tool left.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The smiling Prof. Chakrabarti&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Incubation Time: The teams had to draw in pictures their problem with a funny restriction - No Words! SIPOC or supplier, inputs, process, output and customer was used as a template for the function mapping. This was given as overnight assignment.&lt;/p&gt;
+
+&lt;p&gt;Day 1 drew to a closure. We had promised a day of hardwork and so it was, big grind.&lt;/p&gt;
+
+&lt;p&gt;Day 2 started with Sridhar guiding the teams to enter their output into Thatva and some basics on business plans.&lt;/p&gt;
+
+&lt;p&gt;Today was fun day - Started with silent brainstorming - Write down all ideas that pop in to your head to solve the problem as illustrated in the various tools of Focus. As much as 30 ideas emerged per team. Guided ideation - SCAMPER or substitute, combine, adapt, minimize/maximize, put to other use, eliminate, reverse was put to use. The teams found SCAMP quite good and added more ideas to their kitty. For Adapt, role play was used. Questions like &amp;ldquo;What would Superman do [if he were to solve your problem]?&amp;rdquo; not only sent out giggles around the room, but some unheard of ideas. Eliminate and Reverse were the toughest ones for the participants. Some really good ideas emerged for teams who persisted with their thinking.&lt;/p&gt;
+
+&lt;p&gt;What does a team with a lot of ideas do? Giggle, snicker, doze and merge ideas into a concept. A concept chart was drawn out of all or most ideas during the session. This was presented amidst some power outages as seen in the pictures. Nothing stops enthusiastic students from presenting their ideas.&lt;/p&gt;
+
+&lt;p&gt;This ended a great 2 half days for all of us. The students didn’t realize that they had taught the facilitators a great deal more than what was expected. A grand gala lunch followed in Nesara restaurant in IISc, Bangalore. We were richer by a few more facebook friends! Of course, a big thanks to Prof. Amaresh Chakrabarti and all his enthusiastic students who gave us the opportunity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other pictures&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;622&amp;rdquo; caption=&amp;ldquo;The entire gang of participants, facilitators and the Professor&amp;rdquo;]&lt;img src=&#34;http://balaramadurai.net/img/DSC00681.JPG&#34; alt=&#34;&#34; title=&#34;The entire gang of participants, facilitators and the Professor&#34; /&gt;[/caption]&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;576&amp;rdquo; caption=&amp;ldquo;Post workshop - Lunch at Nesara, IISc&amp;rdquo;]&lt;img src=&#34;http://balaramadurai.net/img/DSC00683.JPG&#34; alt=&#34;&#34; title=&#34;Post workshop - Lunch at Nesara, IISc&#34; /&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What goes around comes around</title>
+      <link>http://balaramadurai.net/blog/2011/11/26/what-goes-around-comes-around/</link>
+      <pubDate>Sat, 26 Nov 2011 10:59:00 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/26/what-goes-around-comes-around/</guid>
+      <description>&lt;p&gt;“Baaammmm&amp;hellip;” was the huge noise that was heard when our car hit a black SX-4 while zigzagging in Chennai traffic. This happened a few years ago near a Chennai suburb called Padi. I was acting consultant to a large car component manufacturer. Alongside with me was a professor of mine who was also consulting with this company. He had invited me to give a talk to a bunch of trainee engineers and senior management.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;An hour ago&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Prof O and me had a long journey from Adyar to Padi, residential southern end of Chennai to the north-western industrial end of Chennai. We were chitchatting on the intricacies of my world and his world. All along, a black sedan was “driving like crazy” in the corner of my eye. Our driver, Raju, had actually revved up a few times. Since, prof O and I were so lost in our conversation, neither of us paid attention, since I had a job at hand of convincing the management about the limitations of their instrument.&lt;/p&gt;
+
+&lt;p&gt;Just before a traffic signal, the black sedan suddenly cut across and Raju lost it. Prof O and I were still deep in scientific conversation. Raju&amp;rsquo;s feet slammed the brakes and he moaned and looked at his rear view mirror to see if we had noticed. This is
+when I noticed that there was something amiss and I remarked it to the professor. Before, he could say anything, the black sedan
+zipped past us and Raju revved up and in 3 seconds, he not only caught up with the sedan, also cut across. Raju had misjudged the maneuver and “Baaaammm”, ended damaging the black sedan. Both vehicles stopped. The driver of the black sedan stepped out, a young gentleman about 25-30 years old, medium build and dressed in a safari suit.&lt;/p&gt;
+
+&lt;p&gt;“Enna saaar?” quizzed the sedan driver with his thumbs up, a typical &amp;ldquo;what&amp;rsquo;s up&amp;rdquo; of Chennai. I thought that was a typical Tamil gesture of asking a question. He was seething with anger and looked at us. Prof O shrugged his shoulders and said in English “We are consultants, we have nothing to do with this car”. The attention now shifted to Raju, who was aghast at what he had done. What followed was shocking&amp;hellip; Raju unfastened his seatbelt and stepped out of the car and was about to examine the damage. The sedan driver slapped Raju on his face with his right hand and uttered words that I can&amp;rsquo;t write here. Raju didn&amp;rsquo;t say a word. We expected retaliation or war of words from Raju. Nothing! He stood his ground and quietly told the sedan driver that he was
+sorry for the behaviour and promised to pay up for the damages.&lt;/p&gt;
+
+&lt;p&gt;20 minutes of negotiation with the driver at a distance from us and Raju got back into the car. No microscopy or materials science talk after that, it was just the filtered traffic noise and the hum of the A/C. We reached our destination and got out of the car.&lt;/p&gt;
+
+&lt;p&gt;My session went well and the management seemed happy with my analysis of their instrument and we were ready to return. We were waiting for Raju and his car. Raju came by walk and was his usual smiling self. Prof O asked him about the morning&amp;rsquo;s events. Raju admitted that the sedan&amp;rsquo;s movements pulled him into an unnecessary dual, which resulted in the damage of the sedan.&lt;/p&gt;
+
+&lt;p&gt;“Everything&amp;rsquo;s even now”, said Raju.&lt;/p&gt;
+
+&lt;p&gt;“What do you mean?” asked a surprised Prof.&lt;/p&gt;
+
+&lt;p&gt;“Narasimha is a courier person to our company and he has been late in bringing his shipments on 3-4 occasions and owes us money. So we settled with him and we are no longer continuing business with him”&lt;/p&gt;
+
+&lt;p&gt;“Who is Narasimha?”&lt;/p&gt;
+
+&lt;p&gt;“The driver who hit us, saar. He is Narasimha and I am in-charge of handling couriers in this company from now on” smiled Raju&amp;hellip; “He shouldn&amp;rsquo;t have slapped me, saar. That is why he is paying for this”.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>3 steps to store and access anything anywhere</title>
+      <link>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</link>
+      <pubDate>Tue, 22 Nov 2011 14:00:12 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/</guid>
+      <description>&lt;p&gt;Have you gone to a high profile presentation only to discover that your latest version is in your home computer or office desktop?Have you ever wished that you didn&amp;rsquo;t have to carry your laptop anywhere?&lt;/p&gt;
+
+&lt;p&gt;Have you ever wanted to travel totally light, say carrying a pendrive and you lost the device?
+Have you felt the need for your presentation software in a conference or in a client location?&lt;/p&gt;
+
+&lt;p&gt;If your answer is yes to any one of the questions above, you will be able to relate to my experiences.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;My selection criteria was simple: portable, light (physically) and I shouldn&amp;rsquo;t be bothered with backing up or maintaining. And of course, investments should be, well, zero. I don&amp;rsquo;t prefer to carry music or videos with me, anyway.&lt;/p&gt;
+
+&lt;p&gt;Required:
+USB pendrive of atleast 2GB capacity&lt;/p&gt;
+
+&lt;p&gt;One primary computer - desktop or laptop&lt;/p&gt;
+
+&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;br /&gt;
+If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
+&lt;img src=&#34;https://www.sugarsync.com/images/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;
+2 Download Portable apps platform with any applications from &lt;a href=&#34;http://portableapps.com&#34;&gt;portableapps.com&lt;/a&gt; on your pendrive&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;LibreOffice for Office apps&lt;/li&gt;
+&lt;li&gt;Chrome browser for browsing&lt;/li&gt;
+&lt;li&gt;DSynchronize for synchronizing Pendrive and Dropbox/Sugarsync (with realtime sync)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vue.tufts.edu&#34;&gt;VUE&lt;/a&gt; for intuitive presentations (I copied the ProgramFilesVUE files and is now portable)&lt;/li&gt;
+&lt;li&gt;Lyx for WYSIWYG LaTeX editing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zotero.org/support/3.0&#34;&gt;Zotero&lt;/a&gt; Standalone for storing research citations (works well with Chrome&amp;rsquo;s Zotero plug-in)&lt;/li&gt;
+&lt;li&gt;Skype (just in case, there is no skype on a machine I login)
+3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.
+&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, there are apps in portable apps to secure all files, folders and settings using a password. As luck would have it, I was invited to give a talk and I wanted to give a presentation using VUE and not powerpoint. I popped in my USB pendrive into the presentation machine, opened VUE from there and in less than a minute, I was ready to present without any hitches.&lt;/p&gt;
+
+&lt;p&gt;The other day, I forgot to take my USB pendrive to a workshop, I was facilitating. No problem, I had sugarsync on my mobile device to retrieve all required files and apps. Oh yes, one could avoid the USB drive altogether with an app running on a mobile device, but that is a choice I leave it to you.&lt;/p&gt;
+
+&lt;p&gt;Happy wireless and careless life :-)&lt;/p&gt;
+
+&lt;p&gt;Later, I will write about Skydrive, GMailDrive&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ths r fw f my fvrt smthngs!</title>
+      <link>http://balaramadurai.net/blog/2011/11/06/ths-r-fw-f-my-fvrt-smthngs/</link>
+      <pubDate>Sun, 06 Nov 2011 15:09:39 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/06/ths-r-fw-f-my-fvrt-smthngs/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/smthngs.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/smthngs.png?w=300&#34; alt=&#34;Smthngs r gd&#34; title=&#34;smthngs&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I came across this wonderful personal productivity software called &lt;a href=&#34;http://thn.gs&#34; title=&#34;Smthngs&#34;&gt;smthngs&lt;/a&gt;. What struck me as something very exotic is the minimalist design. Black and white and as promised, no manual needed to work with the software.&lt;/p&gt;
+
+&lt;p&gt;This software is based on &lt;a href=&#34;http://www.davidco.com&#34; title=&#34;David Allen Company&#34;&gt;getting things done&lt;/a&gt; (GTD) principles. Smthngs has most of the features that other websites like remember the milk (rmilk.com).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Some common features between RTM and smthngs are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;tags&lt;/li&gt;
+&lt;li&gt;clean interface&lt;/li&gt;
+&lt;li&gt;archiving completed tasks&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Where Smthngs really scores:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Conversion of tasks into projects and vice-versa at a click of a button&lt;/li&gt;
+&lt;li&gt;Sub projects, sub-sub projects&lt;/li&gt;
+&lt;li&gt;User interface is cuter when you choose to have sub projects&lt;/li&gt;
+&lt;li&gt;Next Action, Someday, today tabs&lt;/li&gt;
+&lt;li&gt;All on one screen&lt;/li&gt;
+&lt;li&gt;Online, offline switch automatically&lt;/li&gt;
+&lt;li&gt;tag explorer is also nice&lt;/li&gt;
+&lt;li&gt;Drag and drop for anything imaginable, very intuitive.&lt;/li&gt;
+&lt;li&gt;Location feature works (can detect location well)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Remember the milk has these features which can be the wish list for Smthngs&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Twitter, email, google calendar, gmail addons&lt;/li&gt;
+&lt;li&gt;Mobile web interface&lt;/li&gt;
+&lt;li&gt;Works on all standard browsers&lt;/li&gt;
+&lt;li&gt;Fun stuff like Bob T Monkey and name like Remember the Milk (Its a cult, c&amp;rsquo;mon)&lt;/li&gt;
+&lt;li&gt;Email, twitter, mobile reminders&lt;/li&gt;
+&lt;li&gt;iPhone, blackberry, iPad apps (well, Pro version has this but, it is there never the same)&lt;/li&gt;
+&lt;li&gt;Chrome extension (Chrome app exists for Smthngs)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Overall, Smthngs has a few vowels missing and a few features that can be added, but I am in love with the version they have right now. Do tell me if you have used RTM and are itching to try Smthngs or the other way round. I would like to hear your views.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>3 Steps to Alleviate All Your Worries</title>
+      <link>http://balaramadurai.net/blog/2011/11/04/3-steps-to-alleviate-all-your-worries/</link>
+      <pubDate>Fri, 04 Nov 2011 12:13:45 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2011/11/04/3-steps-to-alleviate-all-your-worries/</guid>
+      <description>&lt;p&gt;I hit upon a key insight when I replied to a mail after a recent community session. The session was on how to attain high productivity in life and work. This is the &lt;a href=&#34;http://rahulbijlani.com/essays/you-are-not-running-out-of-time-essay/&#34;&gt;link&lt;/a&gt; I got from Venkat about an article on how one never runs short of time, if one has the purpose figured out. In there was an anecdote from &amp;ldquo;Zen and the art of motorcycle maintenance&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Eventually, I came across a thought from ‘Zen and the Art of Motorcycle Maintenance’. In the story, Pirsig, a young man, goes mountain-climbing with some elderly monks. He struggles throughout, and eventually gives up, while the monks easily continue to the peak. What is apparent is that Pirsig, focussed as he is on the peak, is overwhelmed by the climb, and continues to lose his desire and strength with every step. The monks, on the other hand, used the peak only as a guide to mark the direction of their climb; they were more focused on the journey and its enjoyment, and made it to the top with ease.&amp;rdquo; This is from the essay given in the link above.&lt;/p&gt;
+
+&lt;p&gt;Of course, the message is about &amp;ldquo;being in the moment&amp;rdquo; than lost in worry. Now, I thought about how else could Pirsig have made his journey better. Bing! Then it dawned on me that all Pirsig had to was to visualize himself standing on the peak. Or better still, carried a picture of the peak (Printed off the internet using Google Street View or from the myriads of pictures that enthusiastic tourists upload :)). The key is to move the concern from the prefrontal cortex (PFC) to the visual cortex of the brain. So how does that help? PFC is the last evolved portion of the human brain and hence is very low in energy efficiency. Any thoughts in this portion of the brain can be a drag on the brain&amp;rsquo;s resources. Visual cortex, however, has it all figured out and can handle any number of images. Once, the thought/concern moves to the visual cortex, PFC is free to enjoy the present moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image003.jpg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image003.jpg&#34; alt=&#34;&#34; title=&#34;Prefrontal Cortex and the Brain&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What to do when a concern/worry hits you:&lt;/p&gt;
+
+&lt;p&gt;1. write it down on a piece of paper&lt;/p&gt;
+
+&lt;p&gt;2. Close your eyes and imagine yourself having completely solved the problem&lt;/p&gt;
+
+&lt;p&gt;3. open your eyes and focus on what to do to alleviate the worry&lt;/p&gt;
+
+&lt;p&gt;In TRIZ toolkit, ideal final result (IFR) is about imagining a future where there is only good stuff or benefits. Now, one can add a visual to this IFR and get down to solving problems which are preventing one from getting to an IFR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://balaramadurai.net/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/about/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://balaramadurai.net/img/bala-profile-photo-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dr. Bala Ramadurai is an independent innovation consultant and professor. He has 3 patents to his credit and 10+ publications in international research journals. He co-founded TRIZ Innovation India (&lt;a href=&#34;http://trizindia.org&#34;&gt;http://trizindia.org&lt;/a&gt;) and is an Adjunct Professor at Symbiosis Institute of Business Management, India (&lt;a href=&#34;http://www.sibm.edu&#34;&gt;http://www.sibm.edu&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+
+&lt;p&gt;He has a PhD from Arizona State University, USA, and a B.Tech from IIT Madras, India.&lt;/p&gt;
+
+&lt;h2 id=&#34;industrial-experience&#34;&gt;Industrial Experience&lt;/h2&gt;
+
+&lt;p&gt;He was a Technology Forecasting researcher and designer in the FORMAT project at Politecnico di Milano, Milan, Italy. He managed and designed the handbook for the technology forecasting methodology. (&lt;a href=&#34;http://handbook.format-project.eu&#34;&gt;http://handbook.format-project.eu&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Bala was a systematic innovation facilitator at MindTree Ltd (&lt;a href=&#34;http://www.mindtree.com&#34;&gt;http://www.mindtree.com&lt;/a&gt;), India, where he designed and crafted 5*50, a key innovation intrapreneurship program.&lt;/p&gt;
+
+&lt;p&gt;Prior to MindTree, he was a Research Scientist at General Electric Global Research, India.&lt;/p&gt;
+
+&lt;p&gt;He has mentored students in an entrepreneurship course facilitated by Carnegie Mellon University, USA, and has been cited as an expert in innovation and creativity by Harvard Business Review. (﻿&lt;a href=&#34;https://hbr.org/product/Mindtree--A-Community-of-/an/311049-PDF-ENG&#34;&gt;https://hbr.org/product/Mindtree--A-Community-of-/an/311049-PDF-ENG&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;teaching-experience&#34;&gt;Teaching Experience&lt;/h2&gt;
+
+&lt;p&gt;His teaching experience includes creative problem solving courses at IIT Madras, IIT Gandhinagar, IIT Hyderabad, Symbiosis and IISc Bangalore.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In case you haven&amp;rsquo;t found the answer for your question please feel free to contact Dr. Bala Ramadurai by using the contact form or dropping a line
+at bala@balaramadurai.net.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://balaramadurai.net/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/contact/</guid>
+      <description>
+
+&lt;h1 id=&#34;i-am-here-to-help-you&#34;&gt;I am here to help you&lt;/h1&gt;
+
+&lt;p&gt;Please feel free to drop a line at mailto:bala@balaramadurai.net or use the form in this page to reach out to me.&lt;/p&gt;
+
+&lt;p&gt;Thanks and have a great day!
+Dr. Bala Ramadurai&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</title>
+    <link>http://balaramadurai.net/tags/ios/index.xml</link>
+    <description>Recent content on Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
+    <atom:link href="http://balaramadurai.net/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dropbox for Nokia - Simplify your Nokia Life!</title>
+      <link>http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/</link>
+      <pubDate>Wed, 09 May 2012 18:52:58 +0000</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2012/05/09/dropbox-for-nokia-simplify-your-nokia-life/</guid>
+      <description>&lt;p&gt;After several weeks of search for a decent app for Dropbox (storage for the cloud) on my outdated, outclassed, neglected Symbian Nokia E52 smartphone (Yes, fellas, it is a smartphone, even though it doesn&amp;rsquo;t have Android or iOS on it), I hit upon the right solution. Ok, let me backtrack a bit and describe to you my system of storage and how I want to carry my world with me- &lt;a href=&#34;http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/&#34;&gt;Here it is&lt;/a&gt;. What I have now is my &amp;ldquo;smartphone&amp;rdquo; doubling up as my USB device, since I thought that if I had a reliable Nokia Dropbox app, that would make syncing a breeze.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;http://store.ovi.com/content/125322&#34;&gt;Dropian&lt;/a&gt; was where I started out. Nice interface, but doesn&amp;rsquo;t preserve the folder structure when you download files. &lt;a href=&#34;http://www.tlehto.net/Drops60/help.html&#34;&gt;Drops60&lt;/a&gt; worked well in preserving the folder structure but has one limitation (and apparently, it is a limitation that the Dropbox API imposes) that the app cannot do a directory/folder recursion while syncing. So, you have to manually browse to every folder to sync everything. Bummer!!&lt;/p&gt;
+
+&lt;p&gt;What I want is for all the folders that are on my dropbox folder to be present on my Nokia phone. Then, I started looking for a portable Dropbox
+application that will run once I stick my phone into the desktop as a memory device (2nd best option to recursive syncing, but hey it works!). I found
+&lt;a href=&#34;http://nionsoftware.com/dbpahk/download&#34;&gt;DropboxPortableAHK&lt;/a&gt; as the answer. Once you go thru the wizard and installation on your storage device, the
+portable dropbox actually runs as a different instance of Dropbox desktop app and syncs with your USB device. I gave it a different color (Yes, you
+can configure different colors for different USB devices).&lt;br /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now, my digital/portable life is split into - creation and storage. Creation happens using Google Drive and storage using dropbox.&lt;/p&gt;
+
+&lt;p&gt;My next search is for syncing dropbox and google drive or a portable sync for Google Drive! Wish me luck!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
