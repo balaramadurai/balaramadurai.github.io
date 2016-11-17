@@ -18,7 +18,7 @@
       <description>&lt;p&gt;After several weeks of search for a decent app for Dropbox (storage for the cloud) on my outdated, outclassed, neglected Symbian Nokia E52 smartphone (Yes, fellas, it is a smartphone, even though it doesn&amp;rsquo;t have Android or iOS on it), I hit upon the right solution. Ok, let me backtrack a bit and describe to you my system of storage and how I want to carry my world with me- &lt;a href=&#34;http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/&#34;&gt;Here it is&lt;/a&gt;. What I have now is my &amp;ldquo;smartphone&amp;rdquo; doubling up as my USB device, since I thought that if I had a reliable Nokia Dropbox app, that would make syncing a breeze.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;http://store.ovi.com/content/125322&#34;&gt;Dropian&lt;/a&gt; was where I started out. Nice interface, but doesn&amp;rsquo;t preserve the folder structure when you download files. &lt;a href=&#34;http://www.tlehto.net/Drops60/help.html&#34;&gt;Drops60&lt;/a&gt; worked well in preserving the folder structure but has one limitation (and apparently, it is a limitation that the Dropbox API imposes) that the app cannot do a directory/folder recursion while syncing. So, you have to manually browse to every folder to sync everything. Bummer!!&lt;/p&gt;
 
 &lt;p&gt;What I want is for all the folders that are on my dropbox folder to be present on my Nokia phone. Then, I started looking for a portable Dropbox
@@ -26,7 +26,7 @@ application that will run once I stick my phone into the desktop as a memory dev
 &lt;a href=&#34;http://nionsoftware.com/dbpahk/download&#34;&gt;DropboxPortableAHK&lt;/a&gt; as the answer. Once you go thru the wizard and installation on your storage device, the
 portable dropbox actually runs as a different instance of Dropbox desktop app and syncs with your USB device. I gave it a different color (Yes, you
 can configure different colors for different USB devices).&lt;br /&gt;
-&lt;img src=&#34;img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Right now, my digital/portable life is split into - creation and storage. Creation happens using Google Drive and storage using dropbox.&lt;/p&gt;
 
@@ -55,12 +55,12 @@ USB pendrive of atleast 2GB capacity&lt;/p&gt;
 
 &lt;p&gt;One primary computer - desktop or laptop&lt;/p&gt;
 
-&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)
-&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)&lt;br /&gt;
+&lt;a href=&#34;http://balaramadurai.net/img/image1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;or&lt;br /&gt;
 If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
-&lt;img src=&#34;https://www.sugarsync.com/images/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;&lt;br /&gt;
 2 Download Portable apps platform with any applications from &lt;a href=&#34;http://portableapps.com&#34;&gt;portableapps.com&lt;/a&gt; on your pendrive&lt;/p&gt;
 
 &lt;ol&gt;
@@ -71,9 +71,10 @@ If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
 &lt;li&gt;Lyx for WYSIWYG LaTeX editing&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.zotero.org/support/3.0&#34;&gt;Zotero&lt;/a&gt; Standalone for storing research citations (works well with Chrome&amp;rsquo;s Zotero plug-in)&lt;/li&gt;
 &lt;li&gt;Skype (just in case, there is no skype on a machine I login)
-3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.
-&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image-1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image-1.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, there are apps in portable apps to secure all files, folders and settings using a password. As luck would have it, I was invited to give a talk and I wanted to give a presentation using VUE and not powerpoint. I popped in my USB pendrive into the presentation machine, opened VUE from there and in less than a minute, I was ready to present without any hitches.&lt;/p&gt;
 

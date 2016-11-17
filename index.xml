@@ -7,8 +7,114 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 13 Oct 2012 18:40:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Nov 2016 09:43:47 +0530</lastBuildDate>
     <atom:link href="http://balaramadurai.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I Re-setup My Blog and Website using Hugo, Github and a Green Screen</title>
+      <link>http://balaramadurai.net/blog/2016/11/17/how-i-re-set-up-my-blog-and-website/</link>
+      <pubDate>Thu, 17 Nov 2016 09:43:47 +0530</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2016/11/17/how-i-re-set-up-my-blog-and-website/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://balaramadurai.net/img/my-blog-website.jpg&#34; alt=&#34;My Website and Blog&#34; title=&#34;My Website and Blog&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;My Website and Blog&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Wordpress.com and self-hosted wordpress.org are very nice and easy to setup. I helped my wife &lt;a href=&#34;https://twitter.com/aladybirdblogs&#34;&gt;aladybird&lt;/a&gt; setup
+her travelog website - &lt;a href=&#34;http://funderfulworld.com&#34;&gt;funderfulworld.com&lt;/a&gt; on a self-hosted wordpress.org installation. However, there is a big problem that I faced when it came to
+Wordpress installations.&lt;/p&gt;
+
+&lt;p&gt;They are CPU hungry.&lt;/p&gt;
+
+&lt;p&gt;If you are paying for the hosting then there sure is no problem, since you get unlimited CPU
+time. However, if you are a cheapy like me, then the free hosting sites scowl at you thrice and throw you out like an uninvited guest. All I did was
+to devour some of their CPUs by adding a few harmless plugins to my Wordpress installation.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pssst&amp;hellip;&lt;/em&gt; You can try &lt;a href=&#34;http://sandstorm.io&#34;&gt;sandstorm.io&lt;/a&gt; and install a Wordpress &amp;ldquo;grain&amp;rdquo; though. But you get sucked into this quagmire of CNAME and
+ A record stuff. I got lost trying to do that.&lt;/p&gt;
+
+&lt;h2 id=&#34;enter-and-exit-the-github&#34;&gt;Enter and Exit the Github&lt;/h2&gt;
+
+&lt;p&gt;I looked high and low for a reliable &lt;strong&gt;free&lt;/strong&gt; hosting service provider and came across &lt;a href=&#34;https://en.wikipedia.org/wiki/GitHub&#34;&gt;Github&lt;/a&gt;. Now, Github is like UNIX of the yesteryears and Linux of
+the current generation. As the saying goes,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;UNIX is user friendly, but it is careful in choosing it&amp;rsquo;s friends.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Same can be said about Github. My head reeled from phrases like &amp;ldquo;init&amp;rdquo;, &amp;ldquo;commit&amp;rdquo;, &amp;ldquo;clone&amp;rdquo; and the likes. I steered clear from github for a while.&lt;/p&gt;
+
+&lt;h2 id=&#34;enter-org-mode&#34;&gt;Enter Org Mode&lt;/h2&gt;
+
+&lt;p&gt;Apart from being a nerd, I am also a productivity freak. I looked high and low for a productivity package that was simple to use and was powerful to
+keep tweaking forever. I tried a whole host of apps and software trying to be productive and organized. Finally, I hit upon Gina Tripani&amp;rsquo;s
+&lt;a href=&#34;http://todotxt.com/&#34;&gt;todo.txt&lt;/a&gt;. However, it lacked a reminder system or atleast I couldn&amp;rsquo;t figure out how to get the reminder system going.&lt;/p&gt;
+
+&lt;p&gt;I got sucked into this whole simplicity part of the todo system. A few reddits later, I came to
+&lt;a href=&#34;http://orgmode.org&#34;&gt;orgmode.org&lt;/a&gt;. It said something about an editor called Emacs. It brought back some pleasant memories from the past, about 20 years ago, when I used
+emacs to play snake in text form in IIT, Madras. Oh those green screen days!!!&lt;/p&gt;
+
+&lt;p&gt;I thought to myself that this could be a trip down the memory lane and I installed emacs and I prepped myself for org mode. A year later, I have still
+been using org mode, which is an incredible feat on its own. It retained my interest for a year. I got comfortable with git through org mode. Long
+story short - it was not as difficult as I thought it would be.&lt;/p&gt;
+
+&lt;p&gt;Ok, now to the main topic of my post (after 4 years of no blogging):&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-setup-your-blog-and-website-for-free-using-a-custom-domain-name&#34;&gt;How to setup your blog and website for free using a custom domain name&lt;/h2&gt;
+
+&lt;p&gt;Here are some of the steps that I went through to setup my website on &lt;a href=&#34;http://balaramadurai.net&#34;&gt;http://balaramadurai.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;First, sign up on &lt;a href=&#34;http://github.com/join&#34;&gt;github&lt;/a&gt; for a free account.&lt;/li&gt;
+&lt;li&gt;Create a repository and call it - &lt;code&gt;&amp;lt; username &amp;gt;.github.io&lt;/code&gt;&lt;br /&gt;
+For example, my repository is called &lt;code&gt;balaramadurai.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Next download and install github GUI. I am on Windows 10, so I downloaded the &lt;a href=&#34;https://github-windows.s3.amazonaws.com/GitHubSetup.exe&#34;&gt;windows version&lt;/a&gt;.&lt;br /&gt;
+Note - Alternatively, you can start with installation of Github GUI and create your repository there.&lt;/li&gt;
+&lt;li&gt;Next, download Hugo&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from the &lt;a href=&#34;http://gohugo.io&#34;&gt;website&lt;/a&gt;. If you are on Windows, here is the
+&lt;a href=&#34;https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip&#34;&gt;link&lt;/a&gt; that will help you.&lt;br /&gt;
+Note - Extract the zip file and rename the &lt;code&gt;hugo_****.exe&lt;/code&gt; to &lt;code&gt;hugo.exe&lt;/code&gt;. This will make your life a lot easier.&lt;/li&gt;
+&lt;li&gt;Look through the themes that they have and choose one for yourself.&lt;br /&gt;
+I found &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;this setup&lt;/a&gt; guide useful. I chose &lt;a href=&#34;https://github.com/devcows/hugo-universal-theme&#34;&gt;hugo-universal-theme&lt;/a&gt; since they have a blog and a single page front page. They also have other bells and whistles, but you can very easily disable or enable them in config.toml.&lt;/li&gt;
+&lt;li&gt;Setup the hugo website and the test server. Here you will need the dreaded command line interface &lt;code&gt;cmd&lt;/code&gt; from Win-R or Windows Run.&lt;br /&gt;
+Type &lt;code&gt;hugo server -w&lt;/code&gt; and hit Enter.&lt;/li&gt;
+&lt;li&gt;Point your browser to &lt;code&gt;localhost:1313&lt;/code&gt; and you will have a website running.&lt;/li&gt;
+&lt;li&gt;Copy the config.toml file from the theme to your main website folder, &lt;code&gt;balaramadurai.net/&lt;/code&gt; folder in my case.&lt;/li&gt;
+&lt;li&gt;Changing content may be a bit involved. Look for &lt;code&gt;img&lt;/code&gt; folder where your images are present and data where the nick nacks are present.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;What you need to be changing according to the templates is the yaml files. Add as many as you want and change the content in those yaml files.&lt;/li&gt;
+&lt;li&gt;You will need to learn &lt;a href=&#34;https://daringfireball.net/projects/markdown/syntax&#34;&gt;Markdown format&lt;/a&gt; for writing your blog posts and all your posts will have a .md extension&lt;/li&gt;
+&lt;li&gt;Lastly run &lt;code&gt;hugo&lt;/code&gt; in the same folder as your website and all your content is now ready to be githubbed.&lt;/li&gt;
+&lt;li&gt;By default, your entire website is present in the &lt;code&gt;public&lt;/code&gt; folder. Copy all these files present inside the folder to the folder that has the
+github repository.&lt;/li&gt;
+&lt;li&gt;In the Github application, click on &amp;ldquo;Changes&amp;rdquo; tab and write a few lines in the &amp;ldquo;summary&amp;rdquo; and &amp;ldquo;Description&amp;rdquo; areas.
+Note - One last thing before you push your website to production. Add a file called CNAME for custom domain name. In the contents of the file, enter
+your domain name. In my case, it is &lt;code&gt;balaramadurai.net&lt;/code&gt;. If you don&amp;rsquo;t want a custom domain name (I wonder why), your website is ready on &lt;code&gt;http://&amp;lt;
+username &amp;gt;.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push the &amp;ldquo;Commit to Master&amp;rdquo; button.&lt;/li&gt;
+&lt;li&gt;Once that is done, click on the sync button&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You are all set, your website is up and running.&lt;/p&gt;
+
+&lt;p&gt;You can jazz up your website by adding code from &lt;a href=&#34;http://sumome.com&#34;&gt;sumome.com&lt;/a&gt; which gives you things like contact forms, newsletter signups and social media share
+buttons.&lt;/p&gt;
+
+&lt;p&gt;Have fun!!!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please leave me a comment below and I&amp;rsquo;ll try my best to help you.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Hugo is the static website generator or the stuff that takes your mind off databases and javascript and all that
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;I used a logo maker for my dr. bala ramadurai logo - &lt;a href=&#34;https://logomakr.com/&#34;&gt;logo maker&lt;/a&gt; and a &lt;a href=&#34;http://www.favicon-generator.org/search/---/B&#34;&gt;favicon generator&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Gazing into the Crystal Ball using TRIZ technology trends</title>
@@ -16,7 +122,7 @@
       <pubDate>Sat, 13 Oct 2012 18:40:23 +0000</pubDate>
       
       <guid>http://balaramadurai.net/blog/2012/10/13/gazing-into-the-crystal-ball-using-triz-technology-trends/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;img/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&#34; alt=&#34;http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg &amp;quot;courtesy link - http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&amp;quot;&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://balaramadurai.net/img/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&#34; alt=&#34;http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg &amp;quot;courtesy link - http://cdnimg.visualizeus.com/thumbs/40/6f/art,ball,black,and,white,crystal,light,planet-406f5e2182df35968727c56552e97dc6_h.jpg&amp;quot;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;3 innovation facilitators - Murali Loganathan, Prakasan Kappoth and Bala Ramadurai discuss about the laws of technology evolution.&lt;/p&gt;
 
@@ -42,7 +148,7 @@
 
 &lt;p&gt;One suggestion was to place Dropbox folder inside Google Drive or the other way around. I tried it out, but I got a &amp;ldquo;System Folder&amp;rdquo; error. So I tried the other way around of placing Google Drive Folder inside Dropbox and it worked. Now add SkyDrive into the equation. Make SkyDrive folder as the master folder under which you have Dropbox which contains Google Drive. Do you want to make your virtual life even more difficult, throw SugarSync into the fray. All SugarSync needs is a file location and it backs up your computer contents.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/image.jpeg&#34;&gt;&lt;img src=&#34;img/image.jpeg&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image.jpeg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image.jpeg&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What are the various steps if you were to start from scratch?
 1. Install &lt;a href=&#34;https://apps.live.com/&#34;&gt;SkyDrive app&lt;/a&gt; first (Leave the recommended settings as is)
@@ -72,7 +178,7 @@
       <pubDate>Sat, 12 May 2012 07:14:47 +0000</pubDate>
       
       <guid>http://balaramadurai.net/blog/2012/05/12/are-students-capable-of-coming-out-with-blockbuster-ideas/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;img/clapping.jpg&#34;&gt;&lt;img src=&#34;img/clapping.jpg&#34; alt=&#34;&#34; title=&#34;Office Workers Clapping at Office Party&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/clapping.jpg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/clapping.jpg&#34; alt=&#34;&#34; title=&#34;Office Workers Clapping at Office Party&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The raging debate in our &lt;a href=&#34;http://venture-lab.org&#34;&gt;team&lt;/a&gt; has been whether students (our team picked out undergraduate engineering students in
 particular) are capable of generating blockbuster ideas for a thriving business/startup.&lt;br /&gt;
@@ -101,7 +207,7 @@ I choose to believe in the former and will continue to work with the young&amp;r
       <description>&lt;p&gt;After several weeks of search for a decent app for Dropbox (storage for the cloud) on my outdated, outclassed, neglected Symbian Nokia E52 smartphone (Yes, fellas, it is a smartphone, even though it doesn&amp;rsquo;t have Android or iOS on it), I hit upon the right solution. Ok, let me backtrack a bit and describe to you my system of storage and how I want to carry my world with me- &lt;a href=&#34;http://balaramadurai.net/blog/2011/11/22/3-steps-to-store-and-access-anything-anywhere/&#34;&gt;Here it is&lt;/a&gt;. What I have now is my &amp;ldquo;smartphone&amp;rdquo; doubling up as my USB device, since I thought that if I had a reliable Nokia Dropbox app, that would make syncing a breeze.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/dropbox.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;http://store.ovi.com/content/125322&#34;&gt;Dropian&lt;/a&gt; was where I started out. Nice interface, but doesn&amp;rsquo;t preserve the folder structure when you download files. &lt;a href=&#34;http://www.tlehto.net/Drops60/help.html&#34;&gt;Drops60&lt;/a&gt; worked well in preserving the folder structure but has one limitation (and apparently, it is a limitation that the Dropbox API imposes) that the app cannot do a directory/folder recursion while syncing. So, you have to manually browse to every folder to sync everything. Bummer!!&lt;/p&gt;
 
 &lt;p&gt;What I want is for all the folders that are on my dropbox folder to be present on my Nokia phone. Then, I started looking for a portable Dropbox
@@ -109,7 +215,7 @@ application that will run once I stick my phone into the desktop as a memory dev
 &lt;a href=&#34;http://nionsoftware.com/dbpahk/download&#34;&gt;DropboxPortableAHK&lt;/a&gt; as the answer. Once you go thru the wizard and installation on your storage device, the
 portable dropbox actually runs as a different instance of Dropbox desktop app and syncs with your USB device. I gave it a different color (Yes, you
 can configure different colors for different USB devices).&lt;br /&gt;
-&lt;img src=&#34;img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/systray-dropbox.jpg&#34; alt=&#34;&#34; title=&#34;systray dropbox&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Right now, my digital/portable life is split into - creation and storage. Creation happens using Google Drive and storage using dropbox.&lt;/p&gt;
 
@@ -137,7 +243,7 @@ can configure different colors for different USB devices).&lt;br /&gt;
       <pubDate>Sat, 03 Dec 2011 10:53:26 +0000</pubDate>
       
       <guid>http://balaramadurai.net/blog/2011/12/03/custom-designed-workshop/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;img/image8.png&#34;&gt;&lt;img src=&#34;img/image8.png&#34; alt=&#34;&#34; title=&#34;image8&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image8.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image8.png&#34; alt=&#34;&#34; title=&#34;image8&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What do budding industrial designers, a professor in industrial design, couple of material scientists and an entrepreneur have in common? A thirst for novelty and the desire to help people. The venue was perfect with movable chairs, a whiteboard, projector, an audio system, just in case, we lost our ability to shout. Ranjan had arranged for flipcharts, markers and motivators. Motivators are little chocolate blocks, which go a long way in crafting excellent design from anyone. Shankar(&lt;a href=&#34;http://in.linkedin.com/in/shankarmv&#34;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/#!/shankarmv&#34;&gt;Twitter&lt;/a&gt;), the lead facilitator, started off with a brief introduction on what innovation is.&lt;/p&gt;
 
@@ -178,31 +284,31 @@ Focus is the step where the entire attention is on &amp;ldquo;where the heck is 
 
 &lt;p&gt;Logo that made us facilitators worry about the sanity of the team&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/scavenger.png&#34;&gt;&lt;img src=&#34;img/scavenger.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;img/scavenger2.png&#34;&gt;&lt;img src=&#34;img/scavenger2.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger- team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/scavenger.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/scavenger.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://balaramadurai.net/img/scavenger2.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/scavenger2.png?w=300&#34; alt=&#34;&#34; title=&#34;Scavenger- team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Whacky team, and a creative one!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Logo that made us cry&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/caresquare.png&#34;&gt;&lt;img src=&#34;img/caresquare.png&#34; alt=&#34;&#34; title=&#34;Caresquare&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;img/caresquare2.png&#34;&gt;&lt;img src=&#34;img/caresquare2.png&#34; alt=&#34;&#34; title=&#34;Caresquare - team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/caresquare.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/caresquare.png&#34; alt=&#34;&#34; title=&#34;Caresquare&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://balaramadurai.net/img/caresquare2.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/caresquare2.png&#34; alt=&#34;&#34; title=&#34;Caresquare - team in action&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Democracy at work, this team, everyone was listened to, well, almost everyone ;-)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Logo that went thru more revisions than the colours on their logo&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/helios.png&#34;&gt;&lt;img src=&#34;img/helios.png&#34; alt=&#34;&#34; title=&#34;Helios&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/helios.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/helios.png&#34; alt=&#34;&#34; title=&#34;Helios&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;When you lack content, use colour :-)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Logo that was corny&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/mealmonitors.png&#34;&gt;&lt;img src=&#34;img/mealmonitors.png&#34; alt=&#34;&#34; title=&#34;MealMonitors&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/mealmonitors.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/mealmonitors.png&#34; alt=&#34;&#34; title=&#34;MealMonitors&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Tagline says it all&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Logo that had one guy do all the work&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/image1.png&#34;&gt;&lt;img src=&#34;img/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;New Leaf and newleafers leafing new leafs&lt;/em&gt;&lt;/p&gt;
 
@@ -214,7 +320,7 @@ Focus is the step where the entire attention is on &amp;ldquo;where the heck is 
 
 &lt;p&gt;Once the slogans, logo, initial discussions were over, ’twas analysis time. Top 3 benefits, 3 deficiencies, 3 dollar costs of the current situation was analyzed. 5-whys applied to find root cause of the problems, rather than stop at the first instance of trouble. The budding designers really liked the simplicity of the tool and the impact that the tool left.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/image.png&#34;&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The smiling Prof. Chakrabarti&lt;/em&gt;&lt;/p&gt;
 
@@ -232,9 +338,9 @@ Focus is the step where the entire attention is on &amp;ldquo;where the heck is 
 
 &lt;p&gt;&lt;strong&gt;Other pictures&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;622&amp;rdquo; caption=&amp;ldquo;The entire gang of participants, facilitators and the Professor&amp;rdquo;]&lt;img src=&#34;img/DSC00681.JPG&#34; alt=&#34;&#34; title=&#34;The entire gang of participants, facilitators and the Professor&#34; /&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;622&amp;rdquo; caption=&amp;ldquo;The entire gang of participants, facilitators and the Professor&amp;rdquo;]&lt;img src=&#34;http://balaramadurai.net/img/DSC00681.JPG&#34; alt=&#34;&#34; title=&#34;The entire gang of participants, facilitators and the Professor&#34; /&gt;[/caption]&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;576&amp;rdquo; caption=&amp;ldquo;Post workshop - Lunch at Nesara, IISc&amp;rdquo;]&lt;img src=&#34;img/DSC00683.JPG&#34; alt=&#34;&#34; title=&#34;Post workshop - Lunch at Nesara, IISc&#34; /&gt;[/caption]&lt;/p&gt;</description>
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;576&amp;rdquo; caption=&amp;ldquo;Post workshop - Lunch at Nesara, IISc&amp;rdquo;]&lt;img src=&#34;http://balaramadurai.net/img/DSC00683.JPG&#34; alt=&#34;&#34; title=&#34;Post workshop - Lunch at Nesara, IISc&#34; /&gt;[/caption]&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -295,12 +401,12 @@ USB pendrive of atleast 2GB capacity&lt;/p&gt;
 
 &lt;p&gt;One primary computer - desktop or laptop&lt;/p&gt;
 
-&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)
-&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1 Signup on Dropbox for free 2GB space (Note- You can also add more space by doing certain steps as described in Dropbox)&lt;br /&gt;
+&lt;a href=&#34;http://balaramadurai.net/img/image1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image1.png&#34; alt=&#34;&#34; title=&#34;image1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;or&lt;br /&gt;
 If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
-&lt;img src=&#34;https://www.sugarsync.com/images/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;
+&lt;img src=&#34;http://balaramadurai.net/img/logo-ss.v2.png&#34; alt=&#34;SugarSync logo&#34; /&gt;&lt;br /&gt;
 2 Download Portable apps platform with any applications from &lt;a href=&#34;http://portableapps.com&#34;&gt;portableapps.com&lt;/a&gt; on your pendrive&lt;/p&gt;
 
 &lt;ol&gt;
@@ -311,9 +417,10 @@ If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
 &lt;li&gt;Lyx for WYSIWYG LaTeX editing&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.zotero.org/support/3.0&#34;&gt;Zotero&lt;/a&gt; Standalone for storing research citations (works well with Chrome&amp;rsquo;s Zotero plug-in)&lt;/li&gt;
 &lt;li&gt;Skype (just in case, there is no skype on a machine I login)
-3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.
-&lt;a href=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34;&gt;&lt;img src=&#34;http://nikimonikado.files.wordpress.com/2011/11/image.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+3 Install dropbox app (or sugarsync desktop app) on your computer and designate a folder inside the Dropbox folder as Pendrive.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image-1.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image-1.png&#34; alt=&#34;&#34; title=&#34;image&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, there are apps in portable apps to secure all files, folders and settings using a password. As luck would have it, I was invited to give a talk and I wanted to give a presentation using VUE and not powerpoint. I popped in my USB pendrive into the presentation machine, opened VUE from there and in less than a minute, I was ready to present without any hitches.&lt;/p&gt;
 
@@ -330,7 +437,7 @@ If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
       <pubDate>Sun, 06 Nov 2011 15:09:39 +0000</pubDate>
       
       <guid>http://balaramadurai.net/blog/2011/11/06/ths-r-fw-f-my-fvrt-smthngs/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;img/smthngs.png&#34;&gt;&lt;img src=&#34;img/smthngs.png?w=300&#34; alt=&#34;Smthngs r gd&#34; title=&#34;smthngs&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/smthngs.png&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/smthngs.png?w=300&#34; alt=&#34;Smthngs r gd&#34; title=&#34;smthngs&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I came across this wonderful personal productivity software called &lt;a href=&#34;http://thn.gs&#34; title=&#34;Smthngs&#34;&gt;smthngs&lt;/a&gt;. What struck me as something very exotic is the minimalist design. Black and white and as promised, no manual needed to work with the software.&lt;/p&gt;
 
@@ -391,7 +498,7 @@ If you want more free space (5GB), sugarsync is a good alternative.&lt;br /&gt;
 
 &lt;p&gt;Of course, the message is about &amp;ldquo;being in the moment&amp;rdquo; than lost in worry. Now, I thought about how else could Pirsig have made his journey better. Bing! Then it dawned on me that all Pirsig had to was to visualize himself standing on the peak. Or better still, carried a picture of the peak (Printed off the internet using Google Street View or from the myriads of pictures that enthusiastic tourists upload :)). The key is to move the concern from the prefrontal cortex (PFC) to the visual cortex of the brain. So how does that help? PFC is the last evolved portion of the human brain and hence is very low in energy efficiency. Any thoughts in this portion of the brain can be a drag on the brain&amp;rsquo;s resources. Visual cortex, however, has it all figured out and can handle any number of images. Once, the thought/concern moves to the visual cortex, PFC is free to enjoy the present moment.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;img/image003.jpg&#34;&gt;&lt;img src=&#34;img/image003.jpg&#34; alt=&#34;&#34; title=&#34;Prefrontal Cortex and the Brain&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://balaramadurai.net/img/image003.jpg&#34;&gt;&lt;img src=&#34;http://balaramadurai.net/img/image003.jpg&#34; alt=&#34;&#34; title=&#34;Prefrontal Cortex and the Brain&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What to do when a concern/worry hits you:&lt;/p&gt;
 

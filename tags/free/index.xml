@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</title>
+    <link>http://balaramadurai.net/tags/free/index.xml</link>
+    <description>Recent content on Dr. Bala Ramadurai | Professor &amp; Consultant in Innovation, Design Thinking, Intrapreneurship &amp; Technology Forecasting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Dr. Bala Ramadurai; all rights reserved.</copyright>
+    <atom:link href="http://balaramadurai.net/tags/free/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I Re-setup My Blog and Website using Hugo, Github and a Green Screen</title>
+      <link>http://balaramadurai.net/blog/2016/11/17/how-i-re-set-up-my-blog-and-website/</link>
+      <pubDate>Thu, 17 Nov 2016 09:43:47 +0530</pubDate>
+      
+      <guid>http://balaramadurai.net/blog/2016/11/17/how-i-re-set-up-my-blog-and-website/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://balaramadurai.net/img/my-blog-website.jpg&#34; alt=&#34;My Website and Blog&#34; title=&#34;My Website and Blog&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;My Website and Blog&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Wordpress.com and self-hosted wordpress.org are very nice and easy to setup. I helped my wife &lt;a href=&#34;https://twitter.com/aladybirdblogs&#34;&gt;aladybird&lt;/a&gt; setup
+her travelog website - &lt;a href=&#34;http://funderfulworld.com&#34;&gt;funderfulworld.com&lt;/a&gt; on a self-hosted wordpress.org installation. However, there is a big problem that I faced when it came to
+Wordpress installations.&lt;/p&gt;
+
+&lt;p&gt;They are CPU hungry.&lt;/p&gt;
+
+&lt;p&gt;If you are paying for the hosting then there sure is no problem, since you get unlimited CPU
+time. However, if you are a cheapy like me, then the free hosting sites scowl at you thrice and throw you out like an uninvited guest. All I did was
+to devour some of their CPUs by adding a few harmless plugins to my Wordpress installation.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pssst&amp;hellip;&lt;/em&gt; You can try &lt;a href=&#34;http://sandstorm.io&#34;&gt;sandstorm.io&lt;/a&gt; and install a Wordpress &amp;ldquo;grain&amp;rdquo; though. But you get sucked into this quagmire of CNAME and
+ A record stuff. I got lost trying to do that.&lt;/p&gt;
+
+&lt;h2 id=&#34;enter-and-exit-the-github&#34;&gt;Enter and Exit the Github&lt;/h2&gt;
+
+&lt;p&gt;I looked high and low for a reliable &lt;strong&gt;free&lt;/strong&gt; hosting service provider and came across &lt;a href=&#34;https://en.wikipedia.org/wiki/GitHub&#34;&gt;Github&lt;/a&gt;. Now, Github is like UNIX of the yesteryears and Linux of
+the current generation. As the saying goes,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;UNIX is user friendly, but it is careful in choosing it&amp;rsquo;s friends.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Same can be said about Github. My head reeled from phrases like &amp;ldquo;init&amp;rdquo;, &amp;ldquo;commit&amp;rdquo;, &amp;ldquo;clone&amp;rdquo; and the likes. I steered clear from github for a while.&lt;/p&gt;
+
+&lt;h2 id=&#34;enter-org-mode&#34;&gt;Enter Org Mode&lt;/h2&gt;
+
+&lt;p&gt;Apart from being a nerd, I am also a productivity freak. I looked high and low for a productivity package that was simple to use and was powerful to
+keep tweaking forever. I tried a whole host of apps and software trying to be productive and organized. Finally, I hit upon Gina Tripani&amp;rsquo;s
+&lt;a href=&#34;http://todotxt.com/&#34;&gt;todo.txt&lt;/a&gt;. However, it lacked a reminder system or atleast I couldn&amp;rsquo;t figure out how to get the reminder system going.&lt;/p&gt;
+
+&lt;p&gt;I got sucked into this whole simplicity part of the todo system. A few reddits later, I came to
+&lt;a href=&#34;http://orgmode.org&#34;&gt;orgmode.org&lt;/a&gt;. It said something about an editor called Emacs. It brought back some pleasant memories from the past, about 20 years ago, when I used
+emacs to play snake in text form in IIT, Madras. Oh those green screen days!!!&lt;/p&gt;
+
+&lt;p&gt;I thought to myself that this could be a trip down the memory lane and I installed emacs and I prepped myself for org mode. A year later, I have still
+been using org mode, which is an incredible feat on its own. It retained my interest for a year. I got comfortable with git through org mode. Long
+story short - it was not as difficult as I thought it would be.&lt;/p&gt;
+
+&lt;p&gt;Ok, now to the main topic of my post (after 4 years of no blogging):&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-setup-your-blog-and-website-for-free-using-a-custom-domain-name&#34;&gt;How to setup your blog and website for free using a custom domain name&lt;/h2&gt;
+
+&lt;p&gt;Here are some of the steps that I went through to setup my website on &lt;a href=&#34;http://balaramadurai.net&#34;&gt;http://balaramadurai.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;First, sign up on &lt;a href=&#34;http://github.com/join&#34;&gt;github&lt;/a&gt; for a free account.&lt;/li&gt;
+&lt;li&gt;Create a repository and call it - &lt;code&gt;&amp;lt; username &amp;gt;.github.io&lt;/code&gt;&lt;br /&gt;
+For example, my repository is called &lt;code&gt;balaramadurai.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Next download and install github GUI. I am on Windows 10, so I downloaded the &lt;a href=&#34;https://github-windows.s3.amazonaws.com/GitHubSetup.exe&#34;&gt;windows version&lt;/a&gt;.&lt;br /&gt;
+Note - Alternatively, you can start with installation of Github GUI and create your repository there.&lt;/li&gt;
+&lt;li&gt;Next, download Hugo&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from the &lt;a href=&#34;http://gohugo.io&#34;&gt;website&lt;/a&gt;. If you are on Windows, here is the
+&lt;a href=&#34;https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Windows-32bit.zip&#34;&gt;link&lt;/a&gt; that will help you.&lt;br /&gt;
+Note - Extract the zip file and rename the &lt;code&gt;hugo_****.exe&lt;/code&gt; to &lt;code&gt;hugo.exe&lt;/code&gt;. This will make your life a lot easier.&lt;/li&gt;
+&lt;li&gt;Look through the themes that they have and choose one for yourself.&lt;br /&gt;
+I found &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;this setup&lt;/a&gt; guide useful. I chose &lt;a href=&#34;https://github.com/devcows/hugo-universal-theme&#34;&gt;hugo-universal-theme&lt;/a&gt; since they have a blog and a single page front page. They also have other bells and whistles, but you can very easily disable or enable them in config.toml.&lt;/li&gt;
+&lt;li&gt;Setup the hugo website and the test server. Here you will need the dreaded command line interface &lt;code&gt;cmd&lt;/code&gt; from Win-R or Windows Run.&lt;br /&gt;
+Type &lt;code&gt;hugo server -w&lt;/code&gt; and hit Enter.&lt;/li&gt;
+&lt;li&gt;Point your browser to &lt;code&gt;localhost:1313&lt;/code&gt; and you will have a website running.&lt;/li&gt;
+&lt;li&gt;Copy the config.toml file from the theme to your main website folder, &lt;code&gt;balaramadurai.net/&lt;/code&gt; folder in my case.&lt;/li&gt;
+&lt;li&gt;Changing content may be a bit involved. Look for &lt;code&gt;img&lt;/code&gt; folder where your images are present and data where the nick nacks are present.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;What you need to be changing according to the templates is the yaml files. Add as many as you want and change the content in those yaml files.&lt;/li&gt;
+&lt;li&gt;You will need to learn &lt;a href=&#34;https://daringfireball.net/projects/markdown/syntax&#34;&gt;Markdown format&lt;/a&gt; for writing your blog posts and all your posts will have a .md extension&lt;/li&gt;
+&lt;li&gt;Lastly run &lt;code&gt;hugo&lt;/code&gt; in the same folder as your website and all your content is now ready to be githubbed.&lt;/li&gt;
+&lt;li&gt;By default, your entire website is present in the &lt;code&gt;public&lt;/code&gt; folder. Copy all these files present inside the folder to the folder that has the
+github repository.&lt;/li&gt;
+&lt;li&gt;In the Github application, click on &amp;ldquo;Changes&amp;rdquo; tab and write a few lines in the &amp;ldquo;summary&amp;rdquo; and &amp;ldquo;Description&amp;rdquo; areas.
+Note - One last thing before you push your website to production. Add a file called CNAME for custom domain name. In the contents of the file, enter
+your domain name. In my case, it is &lt;code&gt;balaramadurai.net&lt;/code&gt;. If you don&amp;rsquo;t want a custom domain name (I wonder why), your website is ready on &lt;code&gt;http://&amp;lt;
+username &amp;gt;.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push the &amp;ldquo;Commit to Master&amp;rdquo; button.&lt;/li&gt;
+&lt;li&gt;Once that is done, click on the sync button&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You are all set, your website is up and running.&lt;/p&gt;
+
+&lt;p&gt;You can jazz up your website by adding code from &lt;a href=&#34;http://sumome.com&#34;&gt;sumome.com&lt;/a&gt; which gives you things like contact forms, newsletter signups and social media share
+buttons.&lt;/p&gt;
+
+&lt;p&gt;Have fun!!!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please leave me a comment below and I&amp;rsquo;ll try my best to help you.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Hugo is the static website generator or the stuff that takes your mind off databases and javascript and all that
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;I used a logo maker for my dr. bala ramadurai logo - &lt;a href=&#34;https://logomakr.com/&#34;&gt;logo maker&lt;/a&gt; and a &lt;a href=&#34;http://www.favicon-generator.org/search/---/B&#34;&gt;favicon generator&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
