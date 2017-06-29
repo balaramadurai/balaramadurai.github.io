@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+<title>Migrate from Jekyll - Travelify </title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script id="dsq-count-scr" src="https://nikimonikado.disqus.com/count.js" async></script>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/nikimonikado.gitlab.io\/hugo-travelify-theme-demo\/\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+		<link rel='stylesheet' id='dashicons-css'  href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/css/dashicons.min.css" type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css'  href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/css/font-awesome.min.css" type='text/css' media='all' />
+		<link rel="apple-touch-icon" href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/apple-touch-icon.png" />
+		<link rel="stylesheet" href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/fancybox/jquery.fancybox.css">
+<link rel='stylesheet' id='admin-bar-css'  href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/css/admin-bar.min.css" type='text/css' media='all' />
+<link rel='stylesheet' id='travelify_style-css'  href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/css/style.css" type='text/css' media='all' />
+<link rel='stylesheet' id='travelify_style-css'  href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/css/jetpack.css" type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_ubuntu-css'  href="//fonts.googleapis.com/css?family=Ubuntu" type='text/css' media='all' />
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/jquery.js"></script>
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/jquery-migrate.min.js"></script>
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/functions.min.js"></script>
+
+    <style type="text/css">
+        a { color: #57AD68; }
+        #site-title a { color: ; }
+        #site-title a:hover { color: ; }
+        .wrapper { background: #F8F8F8; }
+        .social-icons ul li a { color: #d0d0d0; }
+        #main-nav a, #main-nav a:hover,  #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: #fff; }
+        .widget, article { background: #fff; }
+        .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title  { color: #1b1e1f; }
+        a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: #439f55; }
+        #main-nav { background: #57ad68; border-color: #57ad68; }
+        #main-nav ul li ul, body { border-color: #439f55; }
+        #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: #439f55; }
+        #main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: #439f55; }
+        .entry-content { color: #1D1D1D; }
+        input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #57ad68; border-color: #57ad68 !important; }
+        ::selection { background: #57ad68; }
+        blockquote { border-color: #439f55; }
+        #controllers a:hover, #controllers a.active { color:  #439f55; }
+        input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: #439f55; border-color: #439f55; }
+    </style>
+    <style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/images/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 26px !important; }
+		* html body { margin-top: 26px !important; }
+	}
+</style>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68204765-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+  <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    <div class="wrapper">
+      <header id="branding" >
+	
+<div class="container clearfix">
+  <div class="hgroup-wrap clearfix">
+
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+	  
+	  <li class="facebook">
+	    <a href="https://www.facebook.com/nikimonikado" title="Follow us on Facebook" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="twitter">
+	    <a href="https://twitter.com/nikimonikado" title="Follow us on Twitter" target="_blank"></a>
+	  </li>
+	  
+	  <li class="rss">
+	    <a href="" title="Subscribe to our feed" target="_blank"></a>
+	  </li>
+	  
+	  <li class="google-plus">
+	    <a href="https://www.google.com/+nikimonikado" title="Follow us on Google Plus" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="pinterest">
+	    <a href="https://www.pinterest.com/nikimonikado" title="Follow us on Pinterest" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="linkedin">
+	    <a href="https://www.linkedin.com/in/nikimonikado" title="Follow us on LinkedIn" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="tumblr">
+	    <a href="https://nikimonikado.tumblr.com/" title="Follow us on Tumblr" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="vimeo">
+	    <a href="https://www.vimeo.com/nikimonikado" title="Follow us on Vimeo" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="instagram">
+	    <a href="https://www.instagram.com/nikimonikado" title="Follow us on Instagram" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="flickr">
+	    <a href="https://flickr.com/photos/nikimonikado" title="Follow us on Flickr" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="youtube">
+	    <a href="https://www.youtube.com/nikimonikado" title="Follow us on YouTube" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="github">
+	    <a href="https://www.github.com/nikimonikado" title="Follow us on GitHub" target="_blank"></a>
+	  </li>
+	  
+	</ul>
+      </div>
+    </section>
+    
+    
+    <hgroup id="site-logo" class="clearfix">
+      <h1 id="site-title">
+	<a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/" rel="home">
+	  Travelify
+	</a>
+      </h1>
+      <h2 id="site-description">Travel theme for Hugo with Slider</h2>
+    </hgroup>
+    
+  </div>
+</div>
+
+
+	<nav id="main-nav" class="clearfix">
+  <div class="container clearfix">
+    <ul class="root">
+      
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/about/">About</a>
+	
+      </li>
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/contact/">Contact</a>
+	
+      </li>
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/linked-post/">Linked post</a>
+	
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+      </header>
+      <div id="main" class="container clearfix">
+	<div id="container">
+	  <div id="primary" class="no-margin-left">
+	    <div id="content">
+	      
+<section id="post" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+
+    <article>
+        <div class="article-inner">
+          <header class="entry-header">
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/migrate-from-jekyll/">
+    <h2 class="entry-title" itemprop="name">
+        Migrate from Jekyll
+    </h2>
+    </a>
+</header>
+
+	  
+    
+<div class="entry-meta-bar clearfix">
+  <div class="entry-meta">
+    
+
+    
+    
+    <span class="posted-on">
+      <time class="entry-date published" datetime="2015-10-10 13:07:31 &#43;0200 &#43;0200" itemprop="datePublished">October 10, 2015</time>
+    </span>
+    
+    
+    
+    
+    
+    <span class="category">
+      
+      
+      <a class="article-category-link" href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/lorem">lorem</a>
+      
+      
+    </span>
+    
+    
+    
+    <span class="comments">
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/migrate-from-jekyll/#disqus_thread">Comments
+      </a>
+    </span>
+    
+  </div>
+  
+
+	  <div class="social-icons">
+  <ul id="blog">
+    <li class="facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/migrate-from-jekyll/" target="_blank">Share</a>
+    </li>
+    <li class="twitter">
+      <a href="https://twitter.com/intent/tweet?text=Migrate%20from%20Jekyll&url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">Tweet</a>
+    </li>
+    <li class="google-plus">
+      <a href="https://plus.google.com/share?url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">+1</a>
+    </li>
+    <li class="linkedin">
+      <a href="https://www.linkedin.com/cws/share?url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">Share</a>
+    </li>  
+  </ul>
+</div>
+
+	  </div>
+          <div class="entry-content" itemprop="articleBody">
+            
+
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
+</code></pre>
+
+<p>should become</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+</code></pre>
+
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
+
+<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
+
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+
+<h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
+
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+
+<ol>
+<li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+
+<pre><code>git submodule deinit _site
+git rm _site
+git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code></pre></li>
+
+<li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
+
+<pre><code>{
+    ..
+    &quot;publishdir&quot;: &quot;_site&quot;,
+    ..
+}
+</code></pre></li>
+</ol>
+
+<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
+
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
+
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+
+<h3 id="implementation">Implementation</h3>
+
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+
+<p>Jekyll&rsquo;s plugin:</p>
+
+<pre><code>module Jekyll
+  class ImageTag &lt; Liquid::Tag
+    @url = nil
+    @caption = nil
+    @class = nil
+    @link = nil
+    // Patterns
+    IMAGE_URL_WITH_CLASS_AND_CAPTION =
+    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
+    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
+    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
+    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
+    def initialize(tag_name, markup, tokens)
+      super
+      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
+        @class   = $1
+        @url     = $3
+        @caption = $7
+        @link = $9
+      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
+        @class   = $1
+        @url     = $3
+        @caption = $7
+      elsif markup =~ IMAGE_URL_WITH_CAPTION
+        @url     = $1
+        @caption = $5
+      elsif markup =~ IMAGE_URL_WITH_CLASS
+        @class = $1
+        @url   = $3
+      elsif markup =~ IMAGE_URL
+        @url = $1
+      end
+    end
+    def render(context)
+      if @class
+        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
+      else
+        source = &quot;&lt;figure&gt;&quot;
+      end
+      if @link
+        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
+      end
+      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
+      if @link
+        source += &quot;&lt;/a&gt;&quot;
+      end
+      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
+      source += &quot;&lt;/figure&gt;&quot;
+      source
+    end
+  end
+end
+Liquid::Template.register_tag('image', Jekyll::ImageTag)
+</code></pre>
+
+<p>is written as this Hugo shortcode:</p>
+
+<pre><code>&lt;!-- image --&gt;
+&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
+    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
+        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
+    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
+    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
+    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
+        {{ .Get &quot;title&quot; }}{{ end }}
+        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
+        {{ .Get &quot;caption&quot; }}
+        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
+            {{ .Get &quot;attr&quot; }}
+        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
+        &lt;/p&gt; {{ end }}
+    &lt;/figcaption&gt;
+    {{ end }}
+&lt;/figure&gt;
+&lt;!-- image --&gt;
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p>I simply changed:</p>
+
+<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
+</code></pre>
+
+<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
+
+<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
+</code></pre>
+
+<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
+
+<h2 id="finishing-touches">Finishing touches</h2>
+
+<h3 id="fix-content">Fix content</h3>
+
+<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
+
+<h3 id="clean-up">Clean up</h3>
+
+<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
+
+<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
+
+<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+
+	    <div class="social-icons">
+  <ul id="blog">
+    <li class="facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/migrate-from-jekyll/" target="_blank">Share</a>
+    </li>
+    <li class="twitter">
+      <a href="https://twitter.com/intent/tweet?text=Migrate%20from%20Jekyll&url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">Tweet</a>
+    </li>
+    <li class="google-plus">
+      <a href="https://plus.google.com/share?url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">+1</a>
+    </li>
+    <li class="linkedin">
+      <a href="https://www.linkedin.com/cws/share?url=https%3a%2f%2fnikimonikado.gitlab.io%2fhugo-travelify-theme-demo%2fpost%2fmigrate-from-jekyll%2f" title="Migrate from Jekyll" target="_blank">Share</a>
+    </li>  
+  </ul>
+</div>
+
+          </div>
+	  
+	  <div class="tags">
+            
+	    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/ipsum" rel="tag">ipsum</a>&middot;
+	    
+	  </div>
+	  
+        </div>
+        
+<ul class="default-wp-page clearfix">
+  
+  <li class="previous">
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/linked-post/" rel="prev">
+      <span class="meta-nav">
+	←
+      </span>
+      Linked post
+    </a>
+  </li>
+  
+  
+  
+  <li class="next">
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/hugo-travelify-theme-features/" rel="next">
+      Hugo Travelify Theme Features
+      <span class="meta-nav">
+	→
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+
+    </article>
+
+    
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'nikimonikado';
+    var disqus_identifier = 'https:\/\/nikimonikado.gitlab.io\/hugo-travelify-theme-demo\/post\/migrate-from-jekyll\/';
+    var disqus_title = 'Migrate from Jekyll';
+    var disqus_url = 'https:\/\/nikimonikado.gitlab.io\/hugo-travelify-theme-demo\/post\/migrate-from-jekyll\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+    
+</section>
+
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="secondary">
+	  
+
+<aside id="search-3" class="widget widget_search">
+  <form method="get" action="https://duckduckgo.com/">
+    <input type="search" name="q" maxlength="255" placeholder="Search the site">
+    <input type="hidden" name="sites" value="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/"/>
+    <input type="hidden" name="k7" value="#faf8f8"/>
+    <input type="hidden" name="kj" value="#b33"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="ko" value="-1"/>
+    <input type="hidden" name="k1" value="-1"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+  </form>
+</aside>
+
+
+
+	  
+
+
+<aside id="categories-3" class="widget widget_categories">
+  <h3 class="widget-title">Categories</h3>
+  <ul>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/lorem">Lorem</a> (2)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/new-york">New-York</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/other-destinations">Other-Destinations</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/programming">Programming</a> (2)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/pseudo">Pseudo</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/categories/starting">Starting</a> (1)
+    </li>
+    
+  </ul>
+</aside>
+
+
+
+
+	  
+
+	  
+
+
+
+<aside id="tag_cloud-2" class="widget widget_tag_cloud">
+  <h3 class="widget-title">        Tag cloud</h3>
+  <div class="tagcloud">
+
+
+
+    
+      
+    
+      
+    
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/hugo" style="font-size: 9px;" title="3 topics">
+      
+      Hugo
+      
+      
+    
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/ipsum" style="font-size: 8px;" title="2 topics">
+      
+      Ipsum
+      
+      
+    
+      
+    
+      
+    
+    <a href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/theme" style="font-size: 9px;" title="3 topics">
+      
+      Theme
+      
+      
+  </div>
+  
+</aside>
+
+	</div>
+	
+      </div>   
+    </div>
+    <footer id="footerarea" class="clearfix">
+  <div class="widget-wrap">
+    <div class="container">
+      <div class="widget-area clearfix">
+      </div>
+    </div>
+  </div>
+  
+  <div id="site-generator">
+    <div class="container">
+      <div class="copyright">&copy; 2017
+      Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.</div><div class="footer-right"></div><div style="clear:both;">
+      </div>
+    </div>
+  </div>
+  <div class="back-to-top">
+    <a href="#branding"></a>
+  </div>
+</footer>
+</div>
+
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/admin-bar.min.js"></script>
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/jquery.cycle.all.min.js"></script>
+<script type='text/javascript'>
+   
+var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+ 
+</script>
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/slider-settings.min.js"></script>
+<script type='text/javascript' src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/wp-embed.min.js"></script>
+
+
+    <script type="text/javascript">
+      (function() {
+      var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+      
+						request = true;
+      
+      b[c] = b[c].replace( rcs, ' ' );
+      
+      b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+      }());
+		</script>
+    
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-68204765-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+  </body>
+</html>
