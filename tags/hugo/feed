@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Travelify</title>
-    <link>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/hugo/feed/</link>
+    <link>http://balaramadurai.github.io/tags/hugo/feed/</link>
     <description>Recent content in Hugo on Travelify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright</copyright>
-    <atom:link href="https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/tags/hugo/feed/" rel="self" type="application/rss+xml" />
+    <atom:link href="http://balaramadurai.github.io/tags/hugo/feed/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This post has no body – almost</title>
-      <link>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/this-post-has-no-body/</link>
+      <link>http://balaramadurai.github.io/post/this-post-has-no-body/</link>
       <pubDate>Tue, 30 May 2017 16:56:43 +0200</pubDate>
       
-      <guid>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/this-post-has-no-body/</guid>
+      <guid>http://balaramadurai.github.io/post/this-post-has-no-body/</guid>
       <description>Ut vel lectus et nulla elementum dapibus. Cras turpis dui, fermentum at tincidunt eu, placerat quis urna. In orci justo, condimentum eget consectetur nec, mollis sit amet nisi. Nulla id turpis dolor, non gravida augue. Phasellus quis justo consectetur tellus ultrices tincidunt.
   Alchemy from Henry Jun Wah Lee / Evosia on Vimeo.
 Vestibulum posuere pharetra sem, in venenatis eros vehicula id. Nulla gravida velit a diam interdum mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
@@ -22,20 +22,20 @@ Vestibulum posuere pharetra sem, in venenatis eros vehicula id. Nulla gravida ve
     
     <item>
       <title>Linked post</title>
-      <link>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/linked-post/</link>
+      <link>http://balaramadurai.github.io/post/linked-post/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/linked-post/</guid>
+      <guid>http://balaramadurai.github.io/post/linked-post/</guid>
       <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
 menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
     </item>
     
     <item>
       <title>Hugo is for lovers</title>
-      <link>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/hugo-is-for-lovers/</link>
+      <link>http://balaramadurai.github.io/post/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://nikimonikado.gitlab.io/hugo-travelify-theme-demo/post/hugo-is-for-lovers/</guid>
+      <guid>http://balaramadurai.github.io/post/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
