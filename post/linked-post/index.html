@@ -26,17 +26,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-		<link rel='stylesheet' id='dashicons-css'  href="http://balaramadurai.github.io/css/dashicons.min.css" type='text/css' media='all' />
-		<link rel='stylesheet' id='font-awesome-css'  href="http://balaramadurai.github.io/css/font-awesome.min.css" type='text/css' media='all' />
-		<link rel="apple-touch-icon" href="http://balaramadurai.github.io/apple-touch-icon.png" />
-		<link rel="stylesheet" href="http://balaramadurai.github.io/fancybox/jquery.fancybox.css">
-<link rel='stylesheet' id='admin-bar-css'  href="http://balaramadurai.github.io/css/admin-bar.min.css" type='text/css' media='all' />
-<link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/css/style.css" type='text/css' media='all' />
-<link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/css/jetpack.css" type='text/css' media='all' />
-<link rel='stylesheet' id='google_font_ubuntu-css'  href="//fonts.googleapis.com/css?family=Ubuntu" type='text/css' media='all' />
-<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.js"></script>
-<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery-migrate.min.js"></script>
-<script type='text/javascript' src="http://balaramadurai.github.io/js/functions.min.js"></script>
+
 
     <style type="text/css">
         a { color: #57AD68; }
@@ -341,16 +331,21 @@ body.custom-background { background-image: url("http://balaramadurai.github.io/i
     <section id="comments">
         <div id="disqus_thread">
             <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'nikimonikado';
-    var disqus_identifier = 'http:\/\/balaramadurai.github.io\/post\/linked-post\/';
-    var disqus_title = 'Linked post';
-    var disqus_url = 'http:\/\/balaramadurai.github.io\/post\/linked-post\/';
-
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "nikimonikado" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -492,7 +487,17 @@ body.custom-background { background-image: url("http://balaramadurai.github.io/i
   </div>
 </footer>
 </div>
-
+		<link rel='stylesheet' id='dashicons-css'  href="http://balaramadurai.github.io/css/dashicons.min.css" type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css'  href="http://balaramadurai.github.io/css/font-awesome.min.css" type='text/css' media='all' />
+		<link rel="apple-touch-icon" href="http://balaramadurai.github.io/apple-touch-icon.png" />
+		<link rel="stylesheet" href="http://balaramadurai.github.io/fancybox/jquery.fancybox.css">
+<link rel='stylesheet' id='admin-bar-css'  href="http://balaramadurai.github.io/css/admin-bar.min.css" type='text/css' media='all' />
+<link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/css/style.css" type='text/css' media='all' />
+<link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/css/jetpack.css" type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_ubuntu-css'  href="//fonts.googleapis.com/css?family=Ubuntu" type='text/css' media='all' />
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.js"></script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery-migrate.min.js"></script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/functions.min.js"></script>
 <script type='text/javascript' src="http://balaramadurai.github.io/js/admin-bar.min.js"></script>
 <script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.cycle.all.min.js"></script>
 <script type='text/javascript'>

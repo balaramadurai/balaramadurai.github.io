@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://balaramadurai.github.io/about/</loc>
@@ -131,6 +132,7 @@
   
   <url>
     <loc>http://balaramadurai.github.io/tags/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   

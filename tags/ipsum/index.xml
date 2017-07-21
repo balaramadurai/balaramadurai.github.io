@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipsum on Travelify</title>
+    <link>http://balaramadurai.github.io/tags/ipsum/</link>
+    <description>Recent content in Ipsum on Travelify</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright</copyright>
+    <lastBuildDate>Tue, 28 Jun 2016 13:07:31 +0200</lastBuildDate>
+    <atom:link href="http://balaramadurai.github.io/tags/ipsum/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo Travelify Theme Features</title>
+      <link>http://balaramadurai.github.io/post/hugo-travelify-theme-features/</link>
+      <pubDate>Tue, 28 Jun 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/post/hugo-travelify-theme-features/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hugo-Travelify-Theme&lt;/strong&gt; is the Hugo version of the Wordpress theme - Travelify . The source code was adapted from &lt;em&gt;digitalcraftsman&lt;/em&gt;&amp;rsquo;s Icarus theme with a few changes for additional features (Even this README is a fork from his original theme README :)).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll</title>
+      <link>http://balaramadurai.github.io/post/migrate-from-jekyll/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/post/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+  </channel>
+</rss>

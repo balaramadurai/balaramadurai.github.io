@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Travelify</title>
+    <link>http://balaramadurai.github.io/categories/</link>
+    <description>Recent content in Categories on Travelify</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright</copyright>
+    <atom:link href="http://balaramadurai.github.io/categories/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lorem</title>
+      <link>http://balaramadurai.github.io/categories/lorem/</link>
+      <pubDate>Tue, 28 Jun 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New York</title>
+      <link>http://balaramadurai.github.io/categories/new-york/</link>
+      <pubDate>Tue, 30 May 2017 16:56:43 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/new-york/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other Destinations</title>
+      <link>http://balaramadurai.github.io/categories/other-destinations/</link>
+      <pubDate>Tue, 30 May 2017 16:56:43 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/other-destinations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://balaramadurai.github.io/categories/programming/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pseudo</title>
+      <link>http://balaramadurai.github.io/categories/pseudo/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/pseudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Starting</title>
+      <link>http://balaramadurai.github.io/categories/starting/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/categories/starting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
