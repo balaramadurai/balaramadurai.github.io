@@ -263,15 +263,13 @@ body.custom-background { background-image: url("http://balaramadurai.github.io/i
 <p>Some of the important features of Hugo-Travelify-Theme are:</p>
 
 <ul>
-<li><p>Automatic slider generation with banner images</p></li>
-
-<li><p>i10n data</p></li>
-
-<li><p>Disqus integration</p></li>
-
-<li><p>Social media share</p></li>
-
-<li><p>Google Analytics</p></li>
+<li>Automatic slider generation with banner images</li>
+<li>Subscribe via Email through Mailchimp integration (You have to sign up and generate the HTML code)</li>
+<li>Multiple author support (Included in the taxonomy)</li>
+<li>i10n data</li>
+<li>Disqus integration</li>
+<li>Social media share</li>
+<li>Google Analytics</li>
 </ul>
 
 <p><img src="http://balaramadurai.github.io/screenshot-1.png" alt="" /></p>
@@ -396,6 +394,8 @@ disable_widgets = true
 
 <ul>
 <li>recent articles</li>
+<li>Subscribe via email (Mailchimp integration - Use the method prescribed in <a href="http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website">http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website</a> and copy the text from <code>form=//username/mailchimp/path/</code>and copy this path to the <code>mailchimpform</code> variable under <code>[params.widget]</code> in your <code>config.toml</code>)</li>
+<li>Multiple author support</li>
 <li>category list</li>
 <li>tag list</li>
 <li>tag cloud</li>
@@ -412,6 +412,9 @@ disable_widgets = true
     tag_cloud = true
     archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
     search = true
+    author = true
+    mailchimp = true
+    mailchimpform = &quot;//mailchimp/url/goes/here&quot;
 </code></pre>
 
 <h3 id="date-line">Date line</h3>
@@ -616,7 +619,6 @@ disable_widgets = true
 	  
 
 
-
 <aside id="tag_cloud-2" class="widget widget_tag_cloud">
   <h3 class="widget-title">        Tag cloud</h3>
   <div class="tagcloud">
@@ -628,15 +630,10 @@ disable_widgets = true
     
       
     
-    <a href="http://balaramadurai.github.io/tags/hugo" style="font-size: 9px;" title="3 topics">
+    <a href="http://balaramadurai.github.io/tags/hugo" style="font-size: 7px;" title="3 topics">
       
       Hugo
-      
-      
-    
-    <a href="http://balaramadurai.github.io/tags/ipsum" style="font-size: 8px;" title="2 topics">
-      
-      Ipsum
+    </a>
       
       
     
@@ -644,14 +641,18 @@ disable_widgets = true
     
       
     
-    <a href="http://balaramadurai.github.io/tags/theme" style="font-size: 9px;" title="3 topics">
+      
+    
+    <a href="http://balaramadurai.github.io/tags/theme" style="font-size: 7px;" title="3 topics">
       
       Theme
+    </a>
       
       
   </div>
-  
+
 </aside>
+
 
 	</div>
 	
@@ -668,7 +669,9 @@ disable_widgets = true
   <div id="site-generator">
     <div class="container">
       <div class="copyright">&copy; 2017
-      Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.</div><div class="footer-right"></div><div style="clear:both;">
+	Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.
+      </div>
+      <div class="footer-right"></div><div style="clear:both;">
       </div>
     </div>
   </div>
