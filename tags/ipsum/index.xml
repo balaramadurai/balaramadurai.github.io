@@ -6,9 +6,10 @@
     <description>Recent content in Ipsum on Travelify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright</copyright>
     <lastBuildDate>Tue, 28 Jun 2016 13:07:31 +0200</lastBuildDate>
-    <atom:link href="http://balaramadurai.github.io/tags/ipsum/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://balaramadurai.github.io/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hugo Travelify Theme Features</title>

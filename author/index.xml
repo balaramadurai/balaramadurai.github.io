@@ -6,8 +6,9 @@
     <description>Recent content in Author on Travelify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright</copyright>
-    <atom:link href="http://balaramadurai.github.io/author/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://balaramadurai.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Test1</title>
