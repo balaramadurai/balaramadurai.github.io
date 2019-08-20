@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>programming - Travelify </title>
+    
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/css/style.min.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='google_font_ubuntu-css'  href="http://balaramadurai.github.io/css/style.min.css" type='text/css' media='all' />
+    <link rel="shortcut icon" href="http://balaramadurai.github.io//favicon.ico" type="image/x-icon">
+    
+    <script type="text/javascript">
+     window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/balaramadurai.github.io\/\/js\/wp-emoji-release.min.js"}};
+     !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+     img.wp-smiley,
+     img.emoji {
+	 display: inline !important;
+	 border: none !important;
+	 box-shadow: none !important;
+	 height: 1em !important;
+	 width: 1em !important;
+	 margin: 0 .07em !important;
+	 vertical-align: -0.1em !important;
+	 background: none !important;
+	 padding: 0 !important;
+     }
+    </style>
+
+
+    <style type="text/css">
+     a { color: #57AD68; }
+     #site-title a { color: ; }
+     #site-title a:hover { color: ; }
+     .wrapper { background: #F8F8F8; }
+     .social-icons ul li a { color: #d0d0d0; list-style: none;}
+     #main-nav a, #main-nav a:hover,  #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: #fff; }
+     .widget, article { background: #fff; }
+     .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title  { color: #1b1e1f; }
+     a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: #439f55; }
+     #main-nav { background: #57ad68; border-color: #57ad68; }
+     #main-nav ul li ul, body { border-color: #439f55; }
+     #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: #439f55; }
+     #main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: #439f55; }
+     .entry-content { color: #1D1D1D; }
+     input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #57ad68; border-color: #57ad68 !important; }
+     ::selection { background: #57ad68; }
+     blockquote { border-color: #439f55; }
+     #controllers a:hover, #controllers a.active { color:  #439f55; }
+     input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: #439f55; border-color: #439f55; }
+    </style>
+    <style type="text/css" id="custom-background-css">
+     body.custom-background { background-image: url("http://balaramadurai.github.io/images/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+    </style>
+    <style type="text/css" media="print">#wpadminbar { display:none; }</style>
+    <style type="text/css" media="screen">
+     * html body { margin-top: 32px !important; }
+     @media screen and ( max-width: 782px ) {
+	 html { margin-top: 26px !important; }
+	 * html body { margin-top: 26px !important; }
+     }
+    </style>
+
+    
+</head>
+
+  <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    <div class="wrapper">
+      <header id="branding" >
+	<div class="container clearfix">
+  <div class="hgroup-wrap clearfix">
+
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+	  
+	  <li class="facebook">
+	    <a href="https://www.facebook.com/nikimonikado" title="Follow us on Facebook" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="twitter">
+	      <a href="https://twitter.com/nikimonikado" title="Follow us on Twitter" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="email">
+	      <a href="mailto:joe@example.com" title="Email us" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="rss">
+	    <a href="" title="Subscribe to our feed" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="google-plus">
+	    <a href="https://www.google.com/+nikimonikado" title="Follow us on Google Plus" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="pinterest">
+	    <a href="https://www.pinterest.com/nikimonikado" title="Follow us on Pinterest" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="linkedin">
+	    <a href="https://www.linkedin.com/in/nikimonikado" title="Follow us on LinkedIn" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="tumblr">
+	    <a href="https://nikimonikado.tumblr.com/" title="Follow us on Tumblr" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="vimeo">
+	    <a href="https://www.vimeo.com/nikimonikado" title="Follow us on Vimeo" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="instagram">
+	    <a href="https://www.instagram.com/nikimonikado" title="Follow us on Instagram" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="flickr">
+	    <a href="https://flickr.com/photos/nikimonikado" title="Follow us on Flickr" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="youtube">
+	    <a href="https://www.youtube.com/nikimonikado" title="Follow us on YouTube" target="_blank"></a>
+	  </li>
+	  
+	  
+	  <li class="github">
+	    <a href="https://www.github.com/nikimonikado" title="Follow us on GitHub" target="_blank"></a>
+	  </li>
+	  
+	</ul>
+      </div>
+    </section>
+    
+    
+    <hgroup id="site-logo" class="clearfix">
+      <h1 id="site-title">
+	<a href="http://balaramadurai.github.io/" rel="home">
+	  
+          <img src="http://balaramadurai.github.io/logo.png"></img>
+	  
+	  
+	  <span class="site-title">Travelify</span>
+	  
+	</a>
+      </h1>
+      <h2 id="site-description">Travel theme for Hugo with Slider</h2>
+    </hgroup>
+    
+  </div>
+</div>
+
+
+	<nav id="main-nav" class="clearfix">
+  <div class="container clearfix">
+    <ul class="root">
+      
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="http://balaramadurai.github.io/about/">About</a>
+	
+      </li>
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="http://balaramadurai.github.io/contact/">contact</a>
+	
+	<ul class="sub-menu">
+	  
+	  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	    <a href="http://balaramadurai.github.io/contact/">Contact2
+	    </a>
+	    
+	    <ul class="sub-menu">
+	      
+	      <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+		<a href="http://balaramadurai.github.io/contact/">cOntact22
+		</a>
+	      </li>
+	      
+	      <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+		<a href="http://balaramadurai.github.io/contact/">Contact21
+		</a>
+	      </li>
+	      
+	    </ul>
+	    
+	  </li>
+	  
+	  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	    <a href="http://balaramadurai.github.io/contact/">cOntact3
+	    </a>
+	    
+	  </li>
+	  
+	</ul>
+	
+      </li>
+      
+      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	<a href="http://balaramadurai.github.io/post/linked-post/">Linked post</a>
+	
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+	<div class="page-title-wrap">
+	  <div class="container clearfix">
+	    <h3 class="page-title">programming </h3>
+	  </div>
+	</div>
+	
+      </header>
+      <div id="main" class="container clearfix">
+	<div id="container">
+	  <div id="primary" class="no-margin-left">
+	    <div id="content">
+	      <section class="post type-post status-publish format-standard has-post-thumbnail hentry ">
+		
+		
+		<section id="main" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+  <article>
+    
+    <figure class="post-featured-image">
+      <a href="http://balaramadurai.github.io/post/test2/" itemprop="url">
+	<img src="http://balaramadurai.github.io/banners/featured-4.jpg" class="attachment-featured size-featured wp-post-image"/>
+      </a>
+    </figure> 
+    
+    
+    <header class="entry-header">
+    <a href="http://balaramadurai.github.io/post/test2/">
+    <h2 class="entry-title" itemprop="name">
+        Creating a new theme
+    </h2>
+    </a>
+</header>
+
+    <div class="article-entry entry-content clearfix" itemprop="articleBody">
+      <p>
+        Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+        <br>
+      </p>
+    </div>
+
+    
+    
+<div class="entry-meta-bar clearfix">
+  <div class="entry-meta">
+    
+    <span class="byline">
+      <span class="author vcard">
+        
+	<a class="url fn n" href="http://balaramadurai.github.io/author/test1">test1</a>
+      </span>
+    </span>
+    
+
+    
+    
+    <span class="posted-on">
+      <time class="entry-date published" datetime="2015-06-24 13:50:46 &#43;0200 &#43;0200" itemprop="datePublished">24 June, 2015</time>
+    </span>
+    
+    
+    
+    
+    
+    <span class="category">
+      
+      
+      <a class="article-category-link" href="http://balaramadurai.github.io/categories/starting">starting</a>
+      
+      
+    </span>
+    
+    
+    
+  </div>
+  
+
+      <span>
+    <a class="readmore" href="http://balaramadurai.github.io/post/test2/">
+      Read More
+    </a>
+  </span>
+  
+</div>
+
+
+  </article>
+</section>
+ 
+		
+		<section id="main" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+  <article>
+    
+    <figure class="post-featured-image">
+      <a href="http://balaramadurai.github.io/post/test3/" itemprop="url">
+	<img src="http://balaramadurai.github.io/banners/featured-4.jpg" class="attachment-featured size-featured wp-post-image"/>
+      </a>
+    </figure> 
+    
+    
+    <header class="entry-header">
+    <a href="http://balaramadurai.github.io/post/test3/">
+    <h2 class="entry-title" itemprop="name">
+        Creating a new theme
+    </h2>
+    </a>
+</header>
+
+    <div class="article-entry entry-content clearfix" itemprop="articleBody">
+      <p>
+        Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+        <br>
+      </p>
+    </div>
+
+    
+    
+<div class="entry-meta-bar clearfix">
+  <div class="entry-meta">
+    
+    <span class="byline">
+      <span class="author vcard">
+        
+	<a class="url fn n" href="http://balaramadurai.github.io/author/test1">test1</a>
+      </span>
+    </span>
+    
+
+    
+    
+    <span class="posted-on">
+      <time class="entry-date published" datetime="2015-06-24 13:50:46 &#43;0200 &#43;0200" itemprop="datePublished">24 June, 2015</time>
+    </span>
+    
+    
+    
+    
+    
+    <span class="category">
+      
+      
+      <a class="article-category-link" href="http://balaramadurai.github.io/categories/starting">starting</a>
+      
+      
+    </span>
+    
+    
+    
+  </div>
+  
+
+      <span>
+    <a class="readmore" href="http://balaramadurai.github.io/post/test3/">
+      Read More
+    </a>
+  </span>
+  
+</div>
+
+
+  </article>
+</section>
+ 
+		
+		<section id="main" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+  <article>
+    
+    <figure class="post-featured-image">
+      <a href="http://balaramadurai.github.io/post/test4/" itemprop="url">
+	<img src="http://balaramadurai.github.io/banners/featured-4.jpg" class="attachment-featured size-featured wp-post-image"/>
+      </a>
+    </figure> 
+    
+    
+    <header class="entry-header">
+    <a href="http://balaramadurai.github.io/post/test4/">
+    <h2 class="entry-title" itemprop="name">
+        Creating a new theme
+    </h2>
+    </a>
+</header>
+
+    <div class="article-entry entry-content clearfix" itemprop="articleBody">
+      <p>
+        Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+        <br>
+      </p>
+    </div>
+
+    
+    
+<div class="entry-meta-bar clearfix">
+  <div class="entry-meta">
+    
+    <span class="byline">
+      <span class="author vcard">
+        
+	<a class="url fn n" href="http://balaramadurai.github.io/author/test1">test1</a>
+      </span>
+    </span>
+    
+
+    
+    
+    <span class="posted-on">
+      <time class="entry-date published" datetime="2015-06-24 13:50:46 &#43;0200 &#43;0200" itemprop="datePublished">24 June, 2015</time>
+    </span>
+    
+    
+    
+    
+    
+    <span class="category">
+      
+      
+      <a class="article-category-link" href="http://balaramadurai.github.io/categories/starting">starting</a>
+      
+      
+    </span>
+    
+    
+    
+  </div>
+  
+
+      <span>
+    <a class="readmore" href="http://balaramadurai.github.io/post/test4/">
+      Read More
+    </a>
+  </span>
+  
+</div>
+
+
+  </article>
+</section>
+ 
+		
+	      </section>
+	      <ul class="default-wp-page clearfix">
+  
+    
+  <li class="previous">
+    <a class="extend prev" rel="prev" href="http://balaramadurai.github.io/tags/programming/">
+            « Previous
+    </a>
+  </li>	  
+  
+  
+  
+</ul>
+
+	    </div>
+	  </div>
+	</div>
+	
+<div id="secondary">
+    
+<aside id="rpwe_widget-3" class="widget rpwe_widget">
+    <h3 class="widget-title">
+        Recent Posts
+    </h3>
+    <div class="rpwe-block">
+        <ul class=" rpwe-ul">
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="http://balaramadurai.github.io/post/this-post-has-no-body/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://balaramadurai.github.io/banners/Spain-Plaza-de-Cibeles-Madrid-1018x460.jpg" alt="programming">
+		    
+                </a>
+                <h3 class="rpwe-title">
+		    <a href="http://balaramadurai.github.io/post/this-post-has-no-body/" title="Permalink to This post has no body – almost" >This post has no body – almost</a>
+		</h3>
+                <time class="rpwe-time published" datetime="2017-05-30 16:56:43 &#43;0200 &#43;0200">30 May, 2017</time>
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="http://balaramadurai.github.io/post/hugo-travelify-theme-features/" class="thumbnail">
+		    
+                    <span class="thumbnail-image thumbnail-none"></span>
+		    
+                </a>
+                <h3 class="rpwe-title">
+		    <a href="http://balaramadurai.github.io/post/hugo-travelify-theme-features/" title="Permalink to Hugo Travelify Theme Features" >Hugo Travelify Theme Features</a>
+		</h3>
+                <time class="rpwe-time published" datetime="2016-06-28 13:07:31 &#43;0200 &#43;0200">28 June, 2016</time>
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="http://balaramadurai.github.io/post/migrate-from-jekyll/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://balaramadurai.github.io/banners/placeholder.png" alt="programming">
+		    
+                </a>
+                <h3 class="rpwe-title">
+		    <a href="http://balaramadurai.github.io/post/migrate-from-jekyll/" title="Permalink to Migrate from Jekyll" >Migrate from Jekyll</a>
+		</h3>
+                <time class="rpwe-time published" datetime="2015-10-10 13:07:31 &#43;0200 &#43;0200">10 October, 2015</time>
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="http://balaramadurai.github.io/post/linked-post/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://balaramadurai.github.io/banners/spain6-1018x460.jpg" alt="programming">
+		    
+                </a>
+                <h3 class="rpwe-title">
+		    <a href="http://balaramadurai.github.io/post/linked-post/" title="Permalink to Linked post" >Linked post</a>
+		</h3>
+                <time class="rpwe-time published" datetime="2015-10-02 21:49:20 &#43;0200 &#43;0200">02 October, 2015</time>
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="http://balaramadurai.github.io/post/go-is-for-lovers/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://balaramadurai.github.io/banners/featured-5.jpg" alt="programming">
+		    
+                </a>
+                <h3 class="rpwe-title">
+		    <a href="http://balaramadurai.github.io/post/go-is-for-lovers/" title="Permalink to Go is for lovers" >Go is for lovers</a>
+		</h3>
+                <time class="rpwe-time published" datetime="2015-09-17 13:47:08 &#43;0200 &#43;0200">17 September, 2015</time>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+<style>
+ .rpwe-block ul{list-style:none!important;margin-left:0!important;padding-left:0!important;}.rpwe-block li{border-bottom:1px solid #eee;margin-bottom:10px;padding-bottom:10px;list-style-type: none;}.rpwe-block a{display:inline!important;text-decoration:none;}.rpwe-block h3{background:none!important;clear:none;margin-bottom:0!important;margin-top:0!important;font-weight:400;font-size:12px!important;line-height:1.5em;}.rpwe-thumb{border:1px solid #EEE!important;box-shadow:none!important;margin:2px 10px 2px 0;padding:3px!important;}.rpwe-summary{font-size:12px;}.rpwe-time{color:#bbb;font-size:11px;}.rpwe-comment{color:#bbb;font-size:11px;padding-left:5px;}.rpwe-alignleft{display:inline;float:left;}.rpwe-alignright{display:inline;float:right;}.rpwe-aligncenter{display:block;margin-left: auto;margin-right: auto;}.rpwe-clearfix:before,.rpwe-clearfix:after{content:"";display:table !important;}.rpwe-clearfix:after{clear:both;}.rpwe-clearfix{zoom:1;}
+</style>
+
+
+    
+
+    
+
+
+<aside id="blog_subscription-2" class="widget"><h3 class="widget-title">Subscribe via Email</h3>
+  <form action="//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;amp;id=49a3dd3745" method="post">
+    <div>
+      <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+    </div>
+    <p>
+      <input name="EMAIL" placeholder="Email Address" type="email">
+    </p>
+    <p>
+      <input name="FNAME" value="" placeholder="First Name" type="name">
+    </p>
+
+    <p >
+      <input value="Subscribe" type="submit">
+    </p>
+  </form>
+			<script>
+			
+
+			(function( d ) {
+				
+				if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+					var label = d.querySelector( 'label[for=subscribe-field-blog_subscription-2]' );
+						label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+						label.style.position = 'absolute';
+						label.style.height   = '1px';
+						label.style.width    = '1px';
+						label.style.overflow = 'hidden';
+				}
+
+				
+				var form = d.getElementById('subscribe-blog-blog_subscription-2'),
+					input = d.getElementById('subscribe-field-blog_subscription-2'),
+					handler = function( event ) {
+						if ( '' === input.value ) {
+							input.focus();
+
+							if ( event.preventDefault ){
+								event.preventDefault();
+							}
+
+							return false;
+						}
+					};
+
+				if ( window.addEventListener ) {
+					form.addEventListener( 'submit', handler, false );
+				} else {
+					form.attachEvent( 'onsubmit', handler );
+				}
+			})( document );
+			</script>
+		
+</aside>
+
+
+
+
+
+    
+
+<aside id="search-3" class="widget widget_search">
+  <form method="get" action="https://duckduckgo.com/">
+    <input type="search" name="q" maxlength="255" placeholder="Search the site">
+    <input type="hidden" name="sites" value="http://balaramadurai.github.io/"/>
+    <input type="hidden" name="k7" value="#faf8f8"/>
+    <input type="hidden" name="kj" value="#b33"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="ko" value="-1"/>
+    <input type="hidden" name="k1" value="-1"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+  </form>
+</aside>
+
+
+
+    
+
+
+<aside id="categories-3" class="widget widget_categories">
+  <h3 class="widget-title">Categories</h3>
+  <ul>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/lorem">Lorem</a> (2)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/new-york">New-York</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/other-destinations">Other-Destinations</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/programming">Programming</a> (2)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/pseudo">Pseudo</a> (1)
+    </li>
+    
+    <li class="cat-item">
+      
+      <a href="http://balaramadurai.github.io/categories/starting">Starting</a> (5)
+    </li>
+    
+  </ul>
+</aside>
+
+
+
+
+    
+
+    
+
+
+
+<aside id="tag_cloud-2" class="widget widget_tag_cloud">
+  <h3 class="widget-title">        Tag cloud</h3>
+  <div class="tagcloud">
+
+
+
+    
+      
+    
+      
+    
+    <a href="http://balaramadurai.github.io/tags/hugo" style="font-size: 7px;" title="3 topics">
+      
+      Hugo
+    </a>
+      
+      
+    
+      
+    
+      
+    
+      
+    
+    <a href="http://balaramadurai.github.io/tags/theme" style="font-size: 11px;" title="7 topics">
+      
+      Theme
+    </a>
+      
+      
+  </div>
+
+</aside>
+
+
+    
+
+
+<div class="widget">
+
+  <h3 class="widget-title">Authors 
+  </h3>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+          
+          <li><a href="http://balaramadurai.github.io/author/test1"><i class="fa fa-user"></i> test1 (6)</a>
+          </li>
+          
+          <li><a href="http://balaramadurai.github.io/author/test2"><i class="fa fa-user"></i> test2 (1)</a>
+          </li>
+          
+        </ul>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+      </div>   
+    </div>
+    <footer id="footerarea" class="clearfix">
+  <div class="widget-wrap">
+    <div class="container">
+      <div class="widget-area clearfix">
+      </div>
+    </div>
+  </div>
+  
+  <div id="site-generator">
+    <div class="container">
+      <div class="copyright">&copy; 2019
+	Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.
+      </div>
+      <div class="footer-right"></div><div style="clear:both;">
+      </div>
+    </div>
+  </div>
+  <div class="back-to-top">
+    <a href="#branding"></a>
+  </div>
+</footer>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.js"></script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery-migrate.min.js"></script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/functions.min.js"></script>
+
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.cycle.all.min.js"></script>
+<script type='text/javascript'>
+  
+ var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+  
+</script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/slider-settings.min.js"></script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/wp-embed.min.js"></script>
+<link rel='stylesheet' id='font-awesome-css'  href="http://balaramadurai.github.io/css/font-awesome.min.css" type='text/css' media='all' />
+
+
+<script type="text/javascript">
+ (function() {
+     var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+     
+     request = true;
+     
+     b[c] = b[c].replace( rcs, ' ' );
+     
+     b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+ }());
+</script>
+
+<link rel="apple-touch-icon" href="http://balaramadurai.github.io/apple-touch-icon.png" />
+<link rel="stylesheet" href="http://balaramadurai.github.io/fancybox/jquery.fancybox.css">
+
+
+<script src="http://balaramadurai.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script src="http://balaramadurai.github.io/js/script.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
