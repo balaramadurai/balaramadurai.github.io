@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lorem on Travelify</title>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 28 Jun 2016 13:07:31 +0200</pubDate>
       
       <guid>http://balaramadurai.github.io/post/hugo-travelify-theme-features/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hugo-Travelify-Theme&lt;/strong&gt; is the Hugo version of the Wordpress theme - Travelify . The source code was adapted from &lt;em&gt;digitalcraftsman&lt;/em&gt;&amp;rsquo;s Icarus theme with a few changes for additional features (Even this README is a fork from his original theme README :)).&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Hugo-Travelify-Theme&lt;/strong&gt; is the Hugo version of the Wordpress theme - Travelify . The source code was adapted from &lt;em&gt;digitalcraftsman&lt;/em&gt;&amp;lsquo;s Icarus theme with a few changes for additional features (Even this README is a fork from his original theme README :)).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@
       
       <guid>http://balaramadurai.github.io/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
+▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
   </channel>

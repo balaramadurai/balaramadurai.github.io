@@ -334,40 +334,42 @@
 
 		</div>
 		<div class="entry-content" itemprop="articleBody">
-		    <p><strong>Hugo-Travelify-Theme</strong> is the Hugo version of the Wordpress theme - Travelify . The source code was adapted from <em>digitalcraftsman</em>&rsquo;s Icarus theme with a few changes for additional features (Even this README is a fork from his original theme README :)).</p>
-
+		    <p><strong>Hugo-Travelify-Theme</strong> is the Hugo version of the Wordpress theme - Travelify . The source code was adapted from <em>digitalcraftsman</em>&lsquo;s Icarus theme with a few changes for additional features (Even this README is a fork from his original theme README :)).</p>
 <p>Some of the important features of Hugo-Travelify-Theme are:</p>
-
 <ul>
-<li>Automatic slider generation with banner images</li>
-<li>Subscribe via Email through Mailchimp integration (You have to sign up and generate the HTML code)</li>
-<li>Multiple author support (Included in the taxonomy)</li>
-<li>i10n data</li>
-<li>Disqus integration</li>
-<li>Social media share</li>
-<li>Google Analytics</li>
+<li>
+<p>Automatic slider generation with banner images</p>
+</li>
+<li>
+<p>Subscribe via Email through Mailchimp integration (You have to sign up and generate the HTML code)</p>
+</li>
+<li>
+<p>Multiple author support (Included in the taxonomy)</p>
+</li>
+<li>
+<p>i10n data</p>
+</li>
+<li>
+<p>Disqus integration</p>
+</li>
+<li>
+<p>Social media share</p>
+</li>
+<li>
+<p>Google Analytics</p>
+<p><img src="http://balaramadurai.github.io/screenshot-1.png" alt=""></p>
+</li>
 </ul>
-
-<p><img src="http://balaramadurai.github.io/screenshot-1.png" alt="" /></p>
-
-<p><img src="http://balaramadurai.github.io/screenshot-2.png" alt="" /></p>
-
-<p><img src="http://balaramadurai.github.io/screenshot-3.png" alt="" /></p>
-
+<p><img src="http://balaramadurai.github.io/screenshot-2.png" alt=""></p>
+<p><img src="http://balaramadurai.github.io/screenshot-3.png" alt=""></p>
 <h2 id="get-the-theme">Get the theme</h2>
-
 <p>If you have <code>git</code> installed, you can do the following at the command-line-interface at the Hugo directory/folder:</p>
-
 <pre><code>$ cd themes
 $ git clone https://github.com/balaramadurai/hugo-travelify-theme.git
 </code></pre>
-
 <p>You should see a folder called <code>hugo-travelify-theme</code> inside the <code>themes</code> directory that we created a few moments ago. For more information read the official <a href="https://gohugo.io/overview/installing/">setup guide</a> of Hugo.</p>
-
 <h2 id="setup">Setup</h2>
-
 <p>In the next step navigate to the <code>exampleSite</code> folder at <code>themes/hugo-travelify-theme/exampleSite/</code>. Its structure should look similar to this:</p>
-
 <pre><code>exampleSite
 |   config.toml
 +---content
@@ -394,80 +396,48 @@ $ git clone https://github.com/balaramadurai/hugo-travelify-theme.git
             Spain-Plaza-de-Cibeles-Madrid-670x300.jpg
             spain6-1018x460.jpg
 </code></pre>
-
 <p>In order to get your site running, you need to copy <code>config.toml</code> and <code>data/l10n.toml</code> into the root folders.</p>
-
 <h2 id="the-config-file">The config file</h2>
-
 <p>Now, let us take a look into the <code>config.toml</code>. Feel free to play around with the settings.</p>
-
 <h3 id="automatic-slider">Automatic Slider</h3>
-
 <p>The slider can be switched on and off at will and you can customize the number of banner images you want on the carousel using the parameters in the config.</p>
-
 <pre><code>[params.slider]
 enable = true
 num_features = 4 # The slider picks up the banner images from the N most recent posts, where num_features is N.
-</code></pre>
-
-<p><em>Tip</em> - For best results in the slider, use <strong>1018x460</strong> resolution for the banner images</p>
-
+</code></pre><p><em>Tip</em> - For best results in the slider, use <strong>1018x460</strong> resolution for the banner images</p>
 <h3 id="google-analytics">Google Analytics</h3>
-
 <pre><code>GoogleAnalytics = &quot;&quot;
-</code></pre>
-
-<h3 id="comments">Comments</h3>
-
+</code></pre><h3 id="comments">Comments</h3>
 <p>The optional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.</p>
-
 <pre><code>disqusShortname = &quot;&quot;
 </code></pre>
-
 <p>Tip: you can disable the comment section for a single page in its frontmatter:</p>
-
-<pre><code class="language-toml">+++
-disable_comments = true
-+++
-</code></pre>
-
-<h3 id="menu">Menu</h3>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#960050;background-color:#1e0010">+++</span>
+<span style="color:#a6e22e">disable_comments</span> = <span style="color:#66d9ef">true</span>
+<span style="color:#960050;background-color:#1e0010">+++</span>
+</code></pre></div><h3 id="menu">Menu</h3>
 <p>You can also define the items menu entries as you like. First, let us link a post that you&rsquo;ve written. We can do this in the frontmatter of the post&rsquo;s content file by setting <code>menu</code> to <code>main</code>.</p>
-
 <pre><code>+++
 menu = &quot;main&quot;
 +++
 </code></pre>
-
 <p>Furthermore, we can add entries that don&rsquo;t link to posts. Back in the <code>config.toml</code> you&rsquo;ll find a section for the menus:</p>
-
 <pre><code>[[menu.main]]
     name  = &quot;Contact&quot;
     url   = &quot;/contact/&quot;
     weight = 20
 </code></pre>
-
 <p>Define a label and enter the URL to resource you want to link. With <code>before</code> you can decide whether the link should appear before <strong>or</strong> after all linked posts in the menu. Therefore, <code>Home</code> appears before the linked post.</p>
-
 <h3 id="sidebars">Sidebars</h3>
-
 <p>In order to use the full width of the website you can disable the profile on the left and / or the widgets on the right for a single page in the frontmatter:</p>
-
-<pre><code class="language-toml">+++
-disable_profile = true
-disable_widgets = true
-+++
-</code></pre>
-
-<h3 id="tell-me-who-you-are">Tell me who you are</h3>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#960050;background-color:#1e0010">+++</span>
+<span style="color:#a6e22e">disable_profile</span> = <span style="color:#66d9ef">true</span>
+<span style="color:#a6e22e">disable_widgets</span> = <span style="color:#66d9ef">true</span>
+<span style="color:#960050;background-color:#1e0010">+++</span>
+</code></pre></div><h3 id="tell-me-who-you-are">Tell me who you are</h3>
 <p>This theme also provides a profile section on the left. Add your social network accounts to the profile section on the left by entering your username under <code>social</code>. The links to your account will be create automatically.</p>
-
 <h3 id="widgets">Widgets</h3>
-
 <p>Beside the profile section you can add widgets on the right sidebar. The following widgets are available:</p>
-
 <ul>
 <li>recent articles</li>
 <li>Subscribe via email (Mailchimp integration - Use the method prescribed in <a href="http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website">http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website</a> and copy the text from <code>form=//username/mailchimp/path/</code>and copy this path to the <code>mailchimpform</code> variable under <code>[params.widget]</code> in your <code>config.toml</code>)</li>
@@ -477,9 +447,7 @@ disable_widgets = true
 <li>tag cloud</li>
 <li>Duckduckgo search enabled on your website</li>
 </ul>
-
 <p>You can deactivate them under <code>params.widgets</code>:</p>
-
 <pre><code># Enable and disable widgets for the right sidebar
 [params.widgets]
     recent_articles = true
@@ -492,51 +460,29 @@ disable_widgets = true
     mailchimp = true
     mailchimpform = &quot;//mailchimp/url/goes/here&quot;
 </code></pre>
-
 <h3 id="date-line">Date line</h3>
-
 <p>The date line includes: post date, categories, comments and sharing links. However, if you want certain pages to omit the date line, simply put <code>nodateline = true</code> in the front matter for that page.</p>
-
-<h3 id="disable-previous-next-article-links-and-remove-tags">Disable Previous / next article links and remove tags</h3>
-
+<h3 id="disable-previous--next-article-links-and-remove-tags">Disable Previous / next article links and remove tags</h3>
 <p>To disable the inclusion of a previous/next article link at the bottom of the page, add <code>noprevnext = true</code> to the front matter.  Along with this feature, along with <code>nodateline = true</code> can be used to create standalone pages that are less &ldquo;blog-like&rdquo;.</p>
-
 <h2 id="localization-l10n">Localization (l10n)</h2>
-
 <p>You don&rsquo;t blog in English and you want to translate the theme into your native locale? No problem. Take a look in the <code>data</code> folder and you&rsquo;ll find a file <code>l10n.toml</code> that we&rsquo;ve copied at the beginning. It contains all strings related to the theme. Just replace the original strings with your own.</p>
-
 <h2 id="linking-thumbnails">Linking thumbnails</h2>
-
 <p>After creating a new post you can define a banner by entering the relative path to the image.</p>
-
 <pre><code>banner = &quot;banners/placeholder.png&quot;
 </code></pre>
-
 <p>This way you can store them either next to the content file or in the <code>static</code> folder.</p>
-
 <p><em>Tip</em> - For best results in the slider, use <strong>1018x460</strong> resolution for the banner images</p>
-
 <h2 id="nearly-finished">Nearly finished</h2>
-
 <p>In order to see your site in action, run Hugo&rsquo;s built-in local server.</p>
-
 <pre><code>$ hugo server
 </code></pre>
-
 <p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser.</p>
-
 <h2 id="contributing">Contributing</h2>
-
 <p>Have you found a bug or got an idea for a new feature? Feel free to use the <a href="//github.com/balaramadurai/hugo-travelify-theme/issues">issue tracker</a> to let me know. Or make directly a <a href="//github.com/digitalcraftsman/hugo-travelify-theme/pulls">pull request</a>.</p>
-
 <h2 id="license">License</h2>
-
 <p>This theme is released under the MIT license. For more information read the <a href="https://github.com/balaramadurai/hugo-travelify-theme/blob/master/LICENSE.md">license</a>.</p>
-
 <h2 id="acknowledgements">Acknowledgements</h2>
-
 <p>Thanks to</p>
-
 <ul>
 <li><a href="//colorlib.com/travelify/">Aigars Silkalns</a> for creating this theme</li>
 <li><a href="//github.com/spf13">Steve Francia</a> for creating Hugo and the awesome community around the project</li>
@@ -746,10 +692,7 @@ disable_widgets = true
 
 
 
-    
-
-
-<aside id="categories-3" class="widget widget_categories">
+    <aside id="categories-3" class="widget widget_categories">
   <h3 class="widget-title">Categories</h3>
   <ul>
     
@@ -785,9 +728,6 @@ disable_widgets = true
     
   </ul>
 </aside>
-
-
-
 
     
 
@@ -873,7 +813,7 @@ disable_widgets = true
   
   <div id="site-generator">
     <div class="container">
-      <div class="copyright">&copy; 2019
+      <div class="copyright">&copy; 2020
 	Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.
       </div>
       <div class="footer-right"></div><div style="clear:both;">

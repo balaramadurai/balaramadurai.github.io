@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Travelify</title>
@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>go</title>
+      <link>http://balaramadurai.github.io/tags/go/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>http://balaramadurai.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>golang</title>
       <link>http://balaramadurai.github.io/tags/golang/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
@@ -62,15 +71,6 @@
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
       <guid>http://balaramadurai.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>http://balaramadurai.github.io/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>http://balaramadurai.github.io/tags/go/</guid>
       <description></description>
     </item>
     
