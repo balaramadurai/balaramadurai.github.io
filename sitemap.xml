@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>http://balaramadurai.github.io/</loc>
-    <lastmod>2017-06-07T15:36:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://balaramadurai.github.io/categories/</loc>
     <lastmod>2017-05-30T16:56:43+02:00</lastmod>
   </url>
@@ -63,6 +58,11 @@
   </url>
   
   <url>
+    <loc>http://balaramadurai.github.io/</loc>
+    <lastmod>2017-05-30T16:56:43+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://balaramadurai.github.io/post/hugo-travelify-theme-features/</loc>
     <lastmod>2016-06-28T13:07:31+02:00</lastmod>
   </url>
@@ -80,11 +80,6 @@
   <url>
     <loc>http://balaramadurai.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://balaramadurai.github.io/tags/go/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
@@ -109,6 +104,11 @@
   
   <url>
     <loc>http://balaramadurai.github.io/author/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://balaramadurai.github.io/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
