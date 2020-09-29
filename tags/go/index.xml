@@ -6,11 +6,7 @@
     <description>Recent content in go on Travelify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
-    
-	<atom:link href="http://balaramadurai.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate><atom:link href="http://balaramadurai.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go is for lovers</title>
       <link>http://balaramadurai.github.io/post/go-is-for-lovers/</link>
