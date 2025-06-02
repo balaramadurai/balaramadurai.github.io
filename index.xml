@@ -1,37 +1,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Travelify</title>
-    <link>http://balaramadurai.github.io/</link>
+    <link>https://balaramadurai.github.io/</link>
     <description>Recent content on Travelify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jun 2017 15:36:00 +0530</lastBuildDate>
-    <atom:link href="http://balaramadurai.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://balaramadurai.github.io/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>http://balaramadurai.github.io/about/</link>
+      <link>https://balaramadurai.github.io/about/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
-      <guid>http://balaramadurai.github.io/about/</guid>
+      <guid>https://balaramadurai.github.io/about/</guid>
       <description>May the Force be with you, the Torque about you This is where my great about goes</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://balaramadurai.github.io/contact/</link>
+      <link>https://balaramadurai.github.io/contact/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
-      <guid>http://balaramadurai.github.io/contact/</guid>
+      <guid>https://balaramadurai.github.io/contact/</guid>
       <description>You may contact me through the nearest wormhole This is where my great contact goes</description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>http://balaramadurai.github.io/post/</link>
+      <link>https://balaramadurai.github.io/post/</link>
       <pubDate>Tue, 30 May 2017 16:56:43 +0200</pubDate>
       
-      <guid>http://balaramadurai.github.io/post/</guid>
+      <guid>https://balaramadurai.github.io/post/</guid>
       <description></description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pseudo on Travelify</title>
-    <link>http://balaramadurai.github.io/categories/pseudo/</link>
+    <link>https://balaramadurai.github.io/categories/pseudo/</link>
     <description>Recent content in Pseudo on Travelify</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Aug 2015 13:39:46 +0200</lastBuildDate>
-    <atom:link href="http://balaramadurai.github.io/categories/pseudo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://balaramadurai.github.io/categories/pseudo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo is for lovers</title>
-      <link>http://balaramadurai.github.io/post/hugo-is-for-lovers/</link>
+      <link>https://balaramadurai.github.io/post/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      <guid>http://balaramadurai.github.io/post/hugo-is-for-lovers/</guid>
+      <guid>https://balaramadurai.github.io/post/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.&#xA;Save it somewhere specific as we will be using it in the next step.&#xA;More complete instructions are available at installing hugo&#xA;Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.&#xA;Follow the following steps:&#xA;Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
   </channel>
