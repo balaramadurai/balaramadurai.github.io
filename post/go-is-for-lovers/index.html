@@ -14,7 +14,7 @@
     <link rel='stylesheet' id='travelify_style-css'  href="http://balaramadurai.github.io/style.min.css" type='text/css' media='all' />
     <link rel='stylesheet' id='embed_style-css'  href="http://balaramadurai.github.io/embed.min.css" type='text/css' media='all' />
     <link rel='stylesheet' id='google_font_ubuntu-css'  href="http://balaramadurai.github.io/style.min.css" type='text/css' media='all' />
-    <link rel="shortcut icon" href="http://balaramadurai.github.io//favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://balaramadurai.github.io/favicon.ico" type="image/x-icon">
     
     <script type="text/javascript">
      window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/balaramadurai.github.io\/\/js\/wp-emoji-release.min.js"}};
@@ -83,65 +83,17 @@
       <div class="social-icons clearfix">
 	<ul>
 	  
-	  <li class="facebook">
-	    <a href="https://www.facebook.com/example" title="Follow us on Facebook" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="twitter">
-	      <a href="https://twitter.com/example" title="Follow us on Twitter" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="email">
-	      <a href="mailto:joe@example.com" title="Email us" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="rss">
-	    <a href="" title="Subscribe to our feed" target="_blank"></a>
-	  </li>
 	  
 	  
 	  
-	  <li class="pinterest">
-	    <a href="https://www.pinterest.com/example" title="Follow us on Pinterest" target="_blank"></a>
-	  </li>
 	  
 	  
-	  <li class="linkedin">
-	    <a href="https://www.linkedin.com/in/example" title="Follow us on LinkedIn" target="_blank"></a>
-	  </li>
 	  
 	  
-	  <li class="tumblr">
-	    <a href="https://example.tumblr.com/" title="Follow us on Tumblr" target="_blank"></a>
-	  </li>
 	  
 	  
-	  <li class="vimeo">
-	    <a href="https://www.vimeo.com/example" title="Follow us on Vimeo" target="_blank"></a>
-	  </li>
 	  
 	  
-	  <li class="instagram">
-	    <a href="https://www.instagram.com/example" title="Follow us on Instagram" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="flickr">
-	    <a href="https://flickr.com/photos/example" title="Follow us on Flickr" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="youtube">
-	    <a href="https://www.youtube.com/example" title="Follow us on YouTube" target="_blank"></a>
-	  </li>
-	  
-	  
-	  <li class="github">
-	    <a href="https://www.github.com/example" title="Follow us on GitHub" target="_blank"></a>
-	  </li>
 	  
 	</ul>
       </div>
@@ -527,12 +479,12 @@ benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p>
 <p>Here is the example front matter:</p>
-<pre><code>---
-title: &quot;Permalinks&quot;
-date: &quot;2013-11-18&quot;
+<pre tabindex="0"><code>---
+title: &#34;Permalinks&#34;
+date: &#34;2013-11-18&#34;
 aliases:
-  - &quot;/doc/permalinks/&quot;
-groups: [&quot;extras&quot;]
+  - &#34;/doc/permalinks/&#34;
+groups: [&#34;extras&#34;]
 groups_weight: 30
 notoc: true
 ---
@@ -547,32 +499,32 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">params</span>:
-  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
-</code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+<pre tabindex="0"><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
 &lt;/footer&gt;{{end}}
 </code></pre><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
-&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
-&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
- alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+<pre tabindex="0"><code>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+<pre tabindex="0"><code>&lt;nav class=&#34;recent&#34;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
@@ -795,13 +747,13 @@ so, such as in this example:</p>
     
     
     <li class="cat-item">
-      <a href="http://balaramadurai.github.io/categories/new-york/">New-York</a> (1)
+      <a href="http://balaramadurai.github.io/categories/new-york/">New York</a> (1)
     </li>
     
     
     
     <li class="cat-item">
-      <a href="http://balaramadurai.github.io/categories/other-destinations/">Other-Destinations</a> (1)
+      <a href="http://balaramadurai.github.io/categories/other-destinations/">Other Destinations</a> (1)
     </li>
     
     
@@ -914,7 +866,7 @@ so, such as in this example:</p>
   
   <div id="site-generator">
     <div class="container">
-      <div class="copyright">&copy; 2021
+      <div class="copyright">&copy; 2025
 	Copyright Powered by <a href="http://gohugo.io">Hugo</a>. Original theme by <a href="http://colorlib.com/wp/travelify/">Colorlib</a> adapted for Hugo by <a href="http://balaramadurai.net">Dr. Bala Ramadurai</a>.
       </div>
       <div class="footer-right"></div><div style="clear:both;">
@@ -928,13 +880,16 @@ so, such as in this example:</p>
 </div>
 
 
+  
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.min.js" id='jquery-core-js'></script>
-<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery-migrate.min.js" id='jquery-migrate-js'</script>
+<script type='text/javascript' src="http://balaramadurai.github.io/js/jquery-migrate.min.js" id='jquery-migrate-js'></script>
 <script type='text/javascript' src="http://balaramadurai.github.io/js/functions.min.js" id='travelify_functions-js'></script>
 
 <script type='text/javascript' src="http://balaramadurai.github.io/js/jquery.cycle.all.min.js" id='jquery_cycle-js'></script>

@@ -4,7 +4,8 @@
     <title>Series on Travelify</title>
     <link>http://balaramadurai.github.io/series/</link>
     <description>Recent content in Series on Travelify</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://balaramadurai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://balaramadurai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

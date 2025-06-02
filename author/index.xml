@@ -4,26 +4,23 @@
     <title>Author on Travelify</title>
     <link>http://balaramadurai.github.io/author/</link>
     <description>Recent content in Author on Travelify</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate><atom:link href="http://balaramadurai.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
+    <atom:link href="http://balaramadurai.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test2</title>
+      <title>Test2</title>
       <link>http://balaramadurai.github.io/author/test2/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
       <guid>http://balaramadurai.github.io/author/test2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>test1</title>
+      <title>Test1</title>
       <link>http://balaramadurai.github.io/author/test1/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
       <guid>http://balaramadurai.github.io/author/test1/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
